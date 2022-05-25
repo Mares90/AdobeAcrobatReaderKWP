@@ -1,0 +1,15 @@
+﻿{
+  "Id": "-55Ykb26UUKDisevVAuupA",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/-55Ykb26UUKDisevVAuupA",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/9vaqTbu2q0WRSmssu47V8Q",
+  "Name": "Öffnen",
+  "Type": "Screen",
+  "Created": "2022-05-09T10:57:03.8668574Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-20T06:24:46.2451941Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

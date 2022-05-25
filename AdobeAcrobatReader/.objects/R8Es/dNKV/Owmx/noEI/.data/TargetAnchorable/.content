@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="9kI_AiKmVESp6ywYM7X70Q" DesignTimeRectangle="216, 327, 509, 29" ElementType="Text" FriendlyName="'Dies ist'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Dies ist ein Test für Adobe Acrobat Reader.   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Dies ist ein Test für Adobe Acrobat Reader.   ' role='text' automationid='' check:text='Dies ist ein Test für Adobe Acrobat Reader.' /&gt;" Guid="e16ad2c8-4be1-427a-bf5f-e0dbefa486a8" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Test.pdf - Adobe Acrobat Reader 2017' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="196, 51, 181, 37" ElementType="Button" FriendlyName="'Test.pdf'" FullSelectorArgument="&lt;ctrl name='Test.pdf' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Test.pdf' role='push button' automationid='' check:text='Test.pdf' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1RHrUg96OJkO4ZiyDjzofWg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0mJO_PNfYrUWN1Fc5lwILSA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6bc29ec1a8821fb0cc8b0b5778d3a6ea.png" xmlns="">0ia968s0sm0WsZf-jOXcdGA</imageRef>
+</TargetAnchorable>

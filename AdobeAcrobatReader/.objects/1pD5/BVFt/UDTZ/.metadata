@@ -1,0 +1,12 @@
+﻿{
+  "Id": "UDTZNRsaL0S0jGUWaA6Q4Q",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/UDTZNRsaL0S0jGUWaA6Q4Q",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/BVFt4iE8-kqt7IVyEB57-A",
+  "Name": "Speichern unter",
+  "Type": "Screen",
+  "Created": "2022-05-10T11:29:39.1843422Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-10T11:29:39.1843422Z"
+}

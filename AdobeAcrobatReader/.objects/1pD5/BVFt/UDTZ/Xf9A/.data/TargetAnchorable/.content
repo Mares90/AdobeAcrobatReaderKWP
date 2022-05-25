@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="qiMQi2MYxkCvq-cuCzNJcQ" DesignTimeRectangle="743, 554, 92, 26" ElementType="Button" FriendlyName="'&amp;Speichern'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Speichern' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Speichern' check:text='&amp;amp;Speichern' /&gt;" Guid="d6bd78bd-b042-4e5e-9b0c-9fd1c9d4dd1b" Reference="NIYzPsPVX02z9zVlWGFAIg/Xf9Acir30UaDzAuq-hRoDw" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Speichern unter' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="847, 554, 88, 26" ElementType="Button" FriendlyName="'Abbrechen'" FullSelectorArgument="&lt;wnd ctrlid='2' title='Abbrechen' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Abbrechen' check:text='Abbrechen' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1yN6_ZgvalU2DiOeHd2yDOQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0J3bRe2_zuUyu6BEyl-5Iqw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5b14254a40170fe6218fe6ad1e97c3bd.png" xmlns="">0jl2CjoCJP0OT8v5Fxr_9Cw</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "R8Est_oP7EaZDjBMmQ7fyA",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/R8Est_oP7EaZDjBMmQ7fyA",
+  "Name": "Adobe Acrobat Reader 2017 Grundfunktionen",
+  "Type": "App",
+  "Created": "2022-05-09T10:18:31.1299673Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-09T15:20:48.4804105Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

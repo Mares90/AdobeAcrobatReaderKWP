@@ -1,0 +1,12 @@
+﻿{
+  "Id": "_UQ_sN9EoUSGSN2ljTL4Bg",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/_UQ_sN9EoUSGSN2ljTL4Bg",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/csrm-y86DEOEBATmZurskw",
+  "Name": "Werkzeuge Adobe",
+  "Type": "Screen",
+  "Created": "2022-05-14T09:45:47.8153215Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-14T09:45:47.8153215Z"
+}

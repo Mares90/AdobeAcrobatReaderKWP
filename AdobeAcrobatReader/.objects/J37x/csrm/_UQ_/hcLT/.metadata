@@ -1,0 +1,13 @@
+﻿{
+  "Id": "hcLTlbyqiU6kWP15Waf13w",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/hcLTlbyqiU6kWP15Waf13w",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/_UQ_sN9EoUSGSN2ljTL4Bg",
+  "Name": "Kommentarfeld",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-05-14T09:48:08.3053223Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-14T09:48:08.3053223Z"
+}

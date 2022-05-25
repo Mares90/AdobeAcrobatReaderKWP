@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="u6mb1-y_cEqGq6nRF_DVVA" DesignTimeRectangle="8, 31, 50, 19" FriendlyName="'Datei'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Datei' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Datei' role='menu item' automationid='' check:text='Datei' /&gt;" Guid="6d759e12-8279-4da4-920b-2d778ac4b62a" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Test_SaveAs.pdf - Adobe Acrobat Reader 2017' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="58, 31, 86, 19" FriendlyName="'Bearbeiten'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Bearbeiten' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Bearbeiten' role='menu item' automationid='' check:text='Bearbeiten' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1W7xNuBjAskCUpHtNEbMz1w</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0fe1LeAafYk2QMoCOaO4CGA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="49d704387815715007698235a0f758ea.png" xmlns="">0yl41PYTB40WYWSk9bhYxcA</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="nGAge37WfU-HJLDAA0MQyg" DesignTimeRectangle="3, 142, 415, 28" FriendlyName="'An E-Mail anhängen...'" FullSelectorArgument="&lt;ctrl name='Datei' role='popup menu' /&gt;&lt;ctrl automationid='6011' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Datei' role='popup menu' /&gt;&lt;ctrl automationid='6011' role='menu item' check:text='An E-Mail anhängen...' /&gt;" Guid="7a9fd1a9-51c1-4370-8766-7f343c813a65" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="8, 31, 50, 19" FriendlyName="'Datei'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Datei' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Datei' role='menu item' automationid='' check:text='Datei' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1jRuxkLWSBkGlGldDjtTdYw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0n7OuhNVPKkKQ5Fo3S2bmfg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="48f7171f0e5af42e0ec370939f007a40.png" xmlns="">0shUN8-lKy0-tKY4GfMU5xA</imageRef>
+</TargetAnchorable>

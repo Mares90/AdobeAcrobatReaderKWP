@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="yhNCXLlqtUyQx3zacB9kFw" DesignTimeRectangle="140, 231, 1292, 21" FriendlyName="'Test.pdf'" FullSelectorArgument="&lt;uia automationid='4101' cls='RichEdit20WPT' name='Betreff' /&gt;" FuzzySelectorArgument="&lt;uia automationid='4101' cls='RichEdit20WPT' name='Betreff' role='Bearbeiten' check:text='Test.pdf' /&gt;" Guid="54c99b24-7418-4250-808b-e9ff1e49bb72" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Test.pdf - Nachricht (Rich-Text) ' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="8, 169, 57, 75" FriendlyName="'Senden'" FullSelectorArgument="&lt;uia automationid='4256' cls='Button' name='Senden' /&gt;" FuzzySelectorArgument="&lt;uia automationid='4256' cls='Button' name='Senden' role='Schaltfläche' check:fulltext='Senden' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">185H6EMBjb0efHcZcvYYLhw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0bmO8STfaakCSaF1lXUms_A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="589aeeef3918ebf4be75f52c3ebb21d4.png" xmlns="">0mrOn1SveqEObdVmQISkB-w</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "n0QTehe1CE64ln7j4VZXug",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/n0QTehe1CE64ln7j4VZXug",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/smChXYDoV0immm_A7WY0wg",
+  "Name": "Schließen",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-05-18T13:23:26.8139615Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-18T13:23:26.8139615Z"
+}

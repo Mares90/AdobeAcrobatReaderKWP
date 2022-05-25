@@ -1,0 +1,13 @@
+﻿{
+  "Id": "gHEcK--0gkqS3rJd0TX2sA",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/gHEcK--0gkqS3rJd0TX2sA",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/-55Ykb26UUKDisevVAuupA",
+  "Name": "Öffnen Button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-05-09T10:58:07.9369532Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-09T10:58:07.9369532Z"
+}

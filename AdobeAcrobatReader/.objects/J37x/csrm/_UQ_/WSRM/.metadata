@@ -1,0 +1,13 @@
+﻿{
+  "Id": "WSRMzNEgGkWUYwGxOwhILA",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/WSRMzNEgGkWUYwGxOwhILA",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/_UQ_sN9EoUSGSN2ljTL4Bg",
+  "Name": "Kommentar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-05-14T09:46:28.5154311Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-14T09:46:28.5154311Z"
+}

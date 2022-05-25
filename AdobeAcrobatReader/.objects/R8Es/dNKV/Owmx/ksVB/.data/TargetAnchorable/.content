@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="ZUUYGcwcdkywAHM3lauckg" DesignTimeRectangle="3, 47, 324, 28" FriendlyName="'Info über'" FullSelectorArgument="&lt;ctrl name='Hilfe' role='popup menu' /&gt;&lt;ctrl automationid='6184' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Hilfe' role='popup menu' /&gt;&lt;ctrl automationid='6184' role='menu item' check:text='Info über Adobe Acrobat Reader 2017' /&gt;" Guid="9fe195b5-ba01-4548-8df8-4c49d9768e1a" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="3, 75, 324, 28" FriendlyName="'Info über'" FullSelectorArgument="&lt;ctrl name='Hilfe' role='popup menu' /&gt;&lt;ctrl automationid='6185' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Hilfe' role='popup menu' /&gt;&lt;ctrl automationid='6185' role='menu item' check:text='Info über Adobe-Zusatzmodule...' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2g7ZrnIdUXUKqKTKQXqAF1w</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="3, 3, 324, 33" FriendlyName="'Hilfe zu'" FullSelectorArgument="&lt;ctrl name='Hilfe' role='popup menu' /&gt;&lt;ctrl automationid='6175' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Hilfe' role='popup menu' /&gt;&lt;ctrl automationid='6175' role='menu item' check:text='Hilfe zu Acrobat Reader F1' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">3c7OepjADQUeFBA98rFhhRw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">01tncqv3OTkec91spnBvmfw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8fe51d5d038abe81b867abc41c624b2f.png" xmlns="">0p1ridIJR-kWAfqmCreDo9w</imageRef>
+</TargetAnchorable>

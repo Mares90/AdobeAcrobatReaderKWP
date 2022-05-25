@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="odU5YQWmn0K9pb3LlePEwA" DesignTimeRectangle="3, 505, 415, 33" FriendlyName="'Beenden Ctrl+Q'" FullSelectorArgument="&lt;ctrl name='Datei' role='popup menu' /&gt;&lt;ctrl automationid='6039' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Datei' role='popup menu' /&gt;&lt;ctrl automationid='6039' role='menu item' check:text='Beenden Ctrl+Q' /&gt;" Guid="aa3cad69-3c60-424a-9808-6c804e115502" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="3, 209, 415, 28" FriendlyName="'Schließen Ctrl+W'" FullSelectorArgument="&lt;ctrl name='Datei' role='popup menu' /&gt;&lt;ctrl automationid='6026' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Datei' role='popup menu' /&gt;&lt;ctrl automationid='6026' role='menu item' check:text='Schließen Ctrl+W' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1Xk5W6ODI50W1WasE9G7Nbw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0z5MARvRd-kOvX0zpIl6Pyw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="91a052a87314a45c0df5c878a255c7a5.png" xmlns="">0FT6Ns6xaw0C0rU-DFkqXog</imageRef>
+</TargetAnchorable>

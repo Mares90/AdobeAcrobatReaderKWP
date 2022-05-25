@@ -1,0 +1,13 @@
+﻿{
+  "Id": "ZfkzsyYORkWGnU-9IewrwA",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/ZfkzsyYORkWGnU-9IewrwA",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/qcLG-nv_8EyBb_5hXjh9XQ",
+  "Name": "Test",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-05-20T06:32:03.9113752Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-20T06:32:03.9113752Z"
+}

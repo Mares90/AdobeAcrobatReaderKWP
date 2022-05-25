@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="02zOE0QeAU-8yNosYbJ9zQ" DesignTimeRectangle="206, 100, 68, 23" ElementType="Button" FriendlyName="'&amp;Ja'" FullSelectorArgument="&lt;wnd aaname='Speichern unter bestätigen' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Ja' cls='Button' title='&amp;amp;Ja' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Speichern unter bestätigen' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Ja' cls='Button' title='&amp;amp;Ja' check:text='&amp;amp;Ja' /&gt;" Guid="cf223fff-cc42-4096-9c69-6bbc8e19b97a" Reference="NIYzPsPVX02z9zVlWGFAIg/i8PU52xq40uLKoi650E93Q" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Speichern unter bestätigen' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="280, 100, 68, 23" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd aaname='Speichern unter bestätigen' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Nein' cls='Button' title='&amp;amp;Nein' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Speichern unter bestätigen' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Nein' cls='Button' title='&amp;amp;Nein' check:text='unchecked' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1zB_-eJLJbE6YVVhQIzpDRg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0ThtTABaFdEGUPXpO0xM_kw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e843c2d0b022f78c1429ad3073380911.png" xmlns="">0x9yul0ddkkeBfQDMAgDkaQ</imageRef>
+</TargetAnchorable>

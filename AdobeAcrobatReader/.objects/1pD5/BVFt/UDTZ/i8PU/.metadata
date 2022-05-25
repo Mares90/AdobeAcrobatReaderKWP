@@ -1,0 +1,13 @@
+﻿{
+  "Id": "i8PU52xq40uLKoi650E93Q",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/i8PU52xq40uLKoi650E93Q",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/UDTZNRsaL0S0jGUWaA6Q4Q",
+  "Name": "Speichern bestätigen",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-05-10T11:33:49.961428Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-10T11:33:49.961428Z"
+}

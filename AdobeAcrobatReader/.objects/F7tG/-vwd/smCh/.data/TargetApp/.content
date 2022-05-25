@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" ContentHash="dz80qWrwn0OSj6JCWAiSVA" FilePath="C:\PROGRA~2\MICROS~2\Office16\outlook.exe" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Test.pdf - Nachricht (Rich-Text) ' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0IDg4_vSoiEuk9ajefekd1A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="75544f398e07eb601c9cc8e1dcf6ab6d.png" xmlns="">010duYlQYAk6VHiM91941Cg</imageRef>
+</TargetApp>

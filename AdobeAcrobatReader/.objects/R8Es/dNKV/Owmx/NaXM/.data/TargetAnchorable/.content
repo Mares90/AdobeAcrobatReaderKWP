@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="JS7gkZWtDU6d2j5sE2jRKg" DesignTimeRectangle="106, 86, 400, 12" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='254' title='2017 Release | Version 2017.011.30204' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='254' title='2017 Release | Version 2017.011.30204' check:text='unchecked' /&gt;" Guid="9c754dd8-aba3-483d-8e16-125bf082059d" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Info über Adobe Acrobat Reader DC 17.0' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <TargetAnchorable.PointOffset>
+    <PointOffset Position="BottomLeft" X="90" Y="-6" />
+  </TargetAnchorable.PointOffset>
+  <imageRef attrName="ImageBase64" xmlns="">06NhQauLF_0-gBVg3Yu6-sg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="984b63744c951b6e19f1a99233b5d360.png" xmlns="">014sTFwj9NUqFcIvFTvqWPQ</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,11 @@
+﻿{
+  "Id": "F7tGwDzcVkyZT7E40LQG3A",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/F7tGwDzcVkyZT7E40LQG3A",
+  "Name": "Test.pdf - Nachricht (Rich-Text)  app",
+  "Type": "App",
+  "Created": "2022-05-18T09:32:40.9768975Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-18T09:32:40.9768975Z"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="KQLkMccgDU6T618wGRO_7Q" DesignTimeRectangle="204, 135, 236, 22" ElementType="Text" FriendlyName="'Test'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Elementansicht' cls='DirectUIHWND' /&gt;&lt;ctrl name='Elementansicht' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Elementansicht' cls='DirectUIHWND' /&gt;&lt;ctrl name='Elementansicht' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' check:text='Test' /&gt;" Guid="95506eaa-8b62-4adc-9ad1-a3e8c4d3ea1f" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="59, 416, 65, 24" FriendlyName="'Documents'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' automationid='' check:text='Documents' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1Hb-GVQwZK0KeIkvG0QgS3g</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <TargetAnchorable.PointOffset>
+    <PointOffset Position="TopLeft" X="17" Y="11" />
+  </TargetAnchorable.PointOffset>
+  <imageRef attrName="ImageBase64" xmlns="">0RCWL0oal90ClCFIqikzl3g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ed68f578908f5b2f2ed8b9eca790c51e.png" xmlns="">0HhideYyuVE66kAWykFkaiQ</imageRef>
+</TargetAnchorable>

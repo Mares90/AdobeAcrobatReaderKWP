@@ -1,0 +1,13 @@
+﻿{
+  "Id": "AvU1xdKqBUOyyotFPmWdHA",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/AvU1xdKqBUOyyotFPmWdHA",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/smChXYDoV0immm_A7WY0wg",
+  "Name": "Test.pdf",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-05-18T09:33:34.0762469Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-18T09:33:34.0762469Z"
+}

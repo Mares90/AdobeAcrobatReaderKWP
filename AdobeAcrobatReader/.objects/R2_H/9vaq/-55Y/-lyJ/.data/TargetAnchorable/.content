@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="SAYq79mFDEm5GU-WcxozIQ" DesignTimeRectangle="204, 135, 236, 22" ElementType="Text" FriendlyName="'AdobeTest'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Elementansicht' cls='DirectUIHWND' /&gt;&lt;ctrl name='Elementansicht' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Elementansicht' cls='DirectUIHWND' /&gt;&lt;ctrl name='Elementansicht' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' check:text='AdobeTest' /&gt;" Guid="6edf41dd-2b14-41fe-8799-a9a64a2a759e" Reference="NIYzPsPVX02z9zVlWGFAIg/-lyJW6bQmUydUQkHLGEzfQ" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="59, 416, 65, 24" FriendlyName="'Documents'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' automationid='' check:text='Documents' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1VWlXPF3_E0WUGutvSazVvQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <TargetAnchorable.PointOffset>
+    <PointOffset Position="TopLeft" X="31" Y="12" />
+  </TargetAnchorable.PointOffset>
+  <imageRef attrName="ImageBase64" xmlns="">0xWbKjLIq20uOn5weUv8_Ww</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8243f87d3247e92aec3f0804c9e52122.png" xmlns="">0Z_CoShfm70ufbbOZAKwoxw</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="RPLjTc5c9UqlgPS-tHKToQ" DesignTimeRectangle="273, 31, 46, 19" FriendlyName="'Hilfe'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Hilfe' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Hilfe' role='menu item' automationid='' check:text='Hilfe' /&gt;" Guid="836153b1-8062-4cfc-a31a-b9da3d1ffd5d" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Adobe Acrobat Reader 2017' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="212, 31, 61, 19" FriendlyName="'Fenster'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Fenster' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='Fenster' role='menu item' automationid='' check:text='Fenster' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1VHcrXE6LxUmbFDhLFJjR5w</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0q9Eux-ZsdUeEZYbNwn2Nuw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8067962a09de2274b45de183c3a257b7.png" xmlns="">08IwomRr14keadQPoI116Rw</imageRef>
+</TargetAnchorable>

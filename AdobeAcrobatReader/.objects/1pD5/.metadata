@@ -1,0 +1,11 @@
+﻿{
+  "Id": "1pD5KGPSvUS2V-MN2EgDYw",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/1pD5KGPSvUS2V-MN2EgDYw",
+  "Name": "Speichern unter app",
+  "Type": "App",
+  "Created": "2022-05-10T11:29:39.1577518Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-10T11:29:39.1577518Z"
+}

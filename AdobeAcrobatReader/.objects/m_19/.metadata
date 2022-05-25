@@ -1,0 +1,14 @@
+﻿{
+  "Id": "m_19kdd3vUqXrQDYSGzG1A",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/m_19kdd3vUqXrQDYSGzG1A",
+  "Name": "PDF Dokumente",
+  "Type": "App",
+  "Created": "2022-05-20T06:29:08.6176988Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-20T06:30:54.9552294Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

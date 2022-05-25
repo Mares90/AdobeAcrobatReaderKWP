@@ -1,0 +1,13 @@
+﻿{
+  "Id": "b2AouiCFX0-e5rwS5L0YOQ",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/b2AouiCFX0-e5rwS5L0YOQ",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/OwmxaPHczEWOtzHNrwtUOg",
+  "Name": "Schließen Ctrl+W",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-05-14T08:30:24.306527Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-14T08:30:24.306527Z"
+}

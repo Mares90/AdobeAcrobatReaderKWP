@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" ContentHash="suUvZGlzVUG3SgDhxhnmfQ" FilePath="C:\Program Files (x86)\Adobe\Acrobat Reader 2017\Reader\acrord32.exe" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Öffnen' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0GZW8MrFLC0K345wb7JtKJQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6c46e0992abf78980b031c02ffd7f44e.png" xmlns="">01T0O-SWWXEKmb-EgixjUfQ</imageRef>
+</TargetApp>

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "4SHbIRUnbEGdLWWZv6fC-A",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/4SHbIRUnbEGdLWWZv6fC-A",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/OwmxaPHczEWOtzHNrwtUOg",
+  "Name": "&Nein Änderungen speichern Test.pdf",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-05-14T10:09:51.250495Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-14T10:09:51.250495Z"
+}

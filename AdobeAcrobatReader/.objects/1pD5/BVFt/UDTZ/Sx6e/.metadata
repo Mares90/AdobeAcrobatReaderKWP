@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Sx6eQoYtP0qEoeXVLERYVw",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/Sx6eQoYtP0qEoeXVLERYVw",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/UDTZNRsaL0S0jGUWaA6Q4Q",
+  "Name": "Dokumente",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-05-10T11:30:40.280858Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-10T11:30:40.280858Z"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "j30yAXblTUiZkcwLE38A0w",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/j30yAXblTUiZkcwLE38A0w",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/UDTZNRsaL0S0jGUWaA6Q4Q",
+  "Name": "Speichern unter Dialog",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-05-10T11:54:30.9417229Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-10T11:54:30.9417229Z"
+}

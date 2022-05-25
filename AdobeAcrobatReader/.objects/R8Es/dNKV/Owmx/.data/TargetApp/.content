@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" ContentHash="4aRNVe1eKUe_ec8wRR5dOQ" FilePath="C:\Program Files (x86)\Adobe\Acrobat Reader 2017\Reader\acrord32.exe" Reference="NIYzPsPVX02z9zVlWGFAIg/OwmxaPHczEWOtzHNrwtUOg" Selector="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Adobe Acrobat Reader 2017' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0evXBcfeAUk-45faT9mB-Og</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="99f933fc482e984ee1b11e8b952fda2c.png" xmlns="">0KI2sKg64WU-dmZU-6ev4QA</imageRef>
+</TargetApp>

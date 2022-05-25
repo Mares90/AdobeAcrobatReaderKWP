@@ -1,0 +1,13 @@
+﻿{
+  "Id": "_0GMhFmygk-sR3yXZHelXw",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/_0GMhFmygk-sR3yXZHelXw",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/OwmxaPHczEWOtzHNrwtUOg",
+  "Name": "Beenden Ctrl+Q",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-05-14T08:31:58.8959425Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-14T08:31:58.8959425Z"
+}

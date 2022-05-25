@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="RknISGlX70aHMQp3w_yW6A" DesignTimeRectangle="1456, 500, 118, 25" ElementType="Button" FriendlyName="'Beitragen'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' idx='2' title='AVPopupAnnotContainerView' /&gt;&lt;ctrl name='Beitragen' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPopupAnnotContainerView' /&gt;&lt;ctrl name='Beitragen' role='push button' automationid='' check:text='Beitragen' /&gt;" Guid="926c8f9f-007c-42fa-846e-3cba67696d93" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Test.pdf - Adobe Acrobat Reader 2017' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="821, 99, 24, 24" ElementType="Button" FriendlyName="'Notiz'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AVDocumentMainView' /&gt;&lt;ctrl name='Notiz' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVDocumentMainView' /&gt;&lt;ctrl name='Notiz' role='push button' automationid='' check:text='Notiz' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1vc2H-8eAIUGKGRlSuGxbfg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0nkFMoaaKqkWxQJ4R079bvA</imageRef>
+</TargetAnchorable>

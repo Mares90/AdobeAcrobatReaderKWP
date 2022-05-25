@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="K07_EosHTku2IqaKnEY7Sw" DesignTimeRectangle="1330, 369, 243, 120" ElementType="InputBox" FriendlyName="'RICHEDIT50W'" FullSelectorArgument="&lt;wnd cls='RICHEDIT50W' idx='2' /&gt;" FuzzySelectorArgument="&lt;wnd cls='RICHEDIT50W' /&gt;" Guid="fcafae48-de54-4446-8e39-b868c4ed1aa3" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Test.pdf - Adobe Acrobat Reader 2017' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1456, 500, 118, 25" ElementType="Button" FriendlyName="'Beitragen'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' idx='2' title='AVPopupAnnotContainerView' /&gt;&lt;ctrl name='Beitragen' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPopupAnnotContainerView' /&gt;&lt;ctrl name='Beitragen' role='push button' automationid='' check:text='Beitragen' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">9BtYAdFv6UkmT9oo6-MRgjA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">08V6JIaaH4UO9l6u7Nc_H4g</imageRef>
+</TargetAnchorable>

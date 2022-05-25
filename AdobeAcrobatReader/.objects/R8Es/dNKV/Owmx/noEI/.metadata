@@ -1,0 +1,13 @@
+﻿{
+  "Id": "noEIruMRtUG3jUHFnJx2Yw",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/noEIruMRtUG3jUHFnJx2Yw",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/OwmxaPHczEWOtzHNrwtUOg",
+  "Name": "Text Datei Test.pdf",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-05-14T09:43:05.0817953Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-14T09:43:05.0817953Z"
+}

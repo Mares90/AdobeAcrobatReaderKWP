@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="vsth9_gITUKpeMS8USwaJg" DesignTimeRectangle="8, 31, 350, 101" FriendlyName="'Speichern unter'" FullSelectorArgument="&lt;wnd aaname='Speichern unter bestätigen' cls='DirectUIHWND' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Speichern unter bestätigen' cls='DirectUIHWND' check:text='Speichern unter bestätigen' /&gt;" Guid="4bee6cc8-4bad-4d98-a5c6-800bdbef7791" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Speichern unter bestätigen' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0KnlH_kwDIEWH8VgP01Ab8g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5a38a91cc0b86a8643239ba7a48f6b93.png" xmlns="">0beN79MoprUuaOVqSz1GoBw</imageRef>
+</TargetAnchorable>

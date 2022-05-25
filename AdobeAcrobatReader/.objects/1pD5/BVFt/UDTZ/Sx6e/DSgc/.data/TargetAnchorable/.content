@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="_ux6miAO20GnOJbxVndOHQ" DesignTimeRectangle="136, 489, 791, 17" ElementType="InputBox" FriendlyName="'Test'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Dateiname:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Dateiname:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="c6eac1d3-a1f7-4df1-b94c-011f049f4e4e" Reference="NIYzPsPVX02z9zVlWGFAIg/DSgc_nNdIUG3GQ_kn2og0w" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Speichern unter' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="133, 511, 814, 23" ElementType="DropDown" FriendlyName="'Adobe PDF-Dateien'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Dateityp:' cls='ComboBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Dateityp:' cls='ComboBox' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1jqVZYK7fTkSTViDgUufC8Q</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0wV_8y3d8WkGTe-I3eIojMQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c070b4e9f55a34b74bb3a2090e25f505.png" xmlns="">01cJmj_MYO0m_ISIf6z1ipw</imageRef>
+</TargetAnchorable>

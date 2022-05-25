@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="fbW-hJ_V7Em9MRkzLi6x1g" DesignTimeRectangle="747, 554, 88, 26" ElementType="Button" FriendlyName="'Ö&amp;ffnen'" FullSelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' check:text='Ö&amp;amp;ffnen' /&gt;" Guid="3eae05ae-dd79-4a62-ae43-b745c0b7a666" Reference="NIYzPsPVX02z9zVlWGFAIg/gHEcK--0gkqS3rJd0TX2sA" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="847, 554, 88, 26" ElementType="Button" FriendlyName="'Abbrechen'" FullSelectorArgument="&lt;wnd ctrlid='2' title='Abbrechen' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Abbrechen' check:text='Abbrechen' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1DgJ-UeevQUaqoGYB5vi0mg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0Te_nU7YfRUOd8pEH6Us0Pw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="cb5949bccddeb5fc112d7c45b3f6425d.png" xmlns="">0_qhmh813kEukr5CRcNzC9A</imageRef>
+</TargetAnchorable>

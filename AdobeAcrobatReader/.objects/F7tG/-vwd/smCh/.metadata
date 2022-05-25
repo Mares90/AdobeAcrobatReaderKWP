@@ -1,0 +1,12 @@
+﻿{
+  "Id": "smChXYDoV0immm_A7WY0wg",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/smChXYDoV0immm_A7WY0wg",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/-vwdSzXHtU6AzLh7_6b4dw",
+  "Name": "Test.pdf - Nachricht (Rich-Text) Outlook",
+  "Type": "Screen",
+  "Created": "2022-05-18T09:32:41.0299223Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-18T09:32:41.0299223Z"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "AdobeAcrobatReader",
+  "description": "Testautomatisierungsprojekt",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.Testing.Activities": "[1.4.6]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8e66a350-b2db-4e9f-afbb-76d7896833cc",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "754f403a-18d5-4851-beef-3d5fb90f6490",
+        "fileName": "Testversuche.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "823404b5-8499-472a-936f-2bcefe12abb0",
+        "fileName": "F01 Grundfunktionen\\S01 Software öffnen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4167ef42-58b8-4dbc-a68e-e8e3d0912073",
+        "fileName": "F01 Grundfunktionen\\S02 Version prüfen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "21a9e315-389a-4a3c-b56c-0fd614b15c8e",
+        "fileName": "F01 Grundfunktionen\\S03 Software beenden.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "736c5394-b207-4a19-9520-6b93cc994aa6",
+        "fileName": "F02 Dateimanagement\\S04 Datei öffnen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "da0d5b5e-51ad-468d-b7d8-793266232a39",
+        "fileName": "F02 Dateimanagement\\S05 Datei Speichern unter.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "da43635f-beff-4d06-ab66-db3424fe87ac",
+        "fileName": "F04 Werkzeuge\\S28 Notiz hinzufügen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "95740f98-915f-494e-a74a-0777a7715ccf",
+        "fileName": "F08 Schnittstelle\\S102 Export in Mail.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0b680f8c-5484-48a9-9977-81ea6185b496",
+        "fileName": "F01 Grundfunktionen\\Testfall1.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

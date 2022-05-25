@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="aj3y-vqGHk2pyh3ggfEz9w" DesignTimeRectangle="115, 36, 544, 30" ElementType="Toolbar" FriendlyName="'Adresse: Documents'" FullSelectorArgument="&lt;wnd ctrlid='1001' title='Adresse: Documents' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1001' title='Adresse: Documents' check:text='Adresse: Documents' /&gt;" Guid="8b2ed2f2-65d5-4b4d-83c2-e1d6488ab501" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Speichern unter' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">02W168M9QcEWQnrsUAFTB5w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2d2458cc7218923aa30fc075315f4c5d.png" xmlns="">0xzRQIoB6wU2lTdNym6R8pQ</imageRef>
+</TargetAnchorable>

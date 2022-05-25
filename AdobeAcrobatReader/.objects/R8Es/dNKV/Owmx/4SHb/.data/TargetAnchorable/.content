@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="Iv0JHJLuv0aOauFi5bVakQ" DesignTimeRectangle="326, 126, 86, 26" ElementType="Button" FriendlyName="'&amp;Nein'" FullSelectorArgument="&lt;wnd aaname='Nein' cls='Button' title='&amp;amp;Nein' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Nein' cls='Button' title='&amp;amp;Nein' check:text='&amp;amp;Nein' /&gt;" Guid="4ca7cb41-1731-46fb-8aa0-5deb40993f8f" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Acrobat Reader' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="65, 46, 443, 15" ElementType="Text" FriendlyName="'Möchten Sie'" FullSelectorArgument="&lt;wnd cls='Static' title='Möchten Sie die Änderungen an „Test.pdf“ vor dem Schließen speic*' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='Möchten Sie die Änderungen an „Test.pdf“ vor dem Schließen speic*' check:text='Möchten Sie die Änderungen an „Test.pdf“ vor dem Schließen speichern?' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1zf3LmsuYZUKrRIXxELt_Qg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">00P-pT943VEq1bYIOUWoErQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="daa94f232cfbea27ddcafade17ea4470.png" xmlns="">0AR59-WS2bEGm6gtAbJSvkA</imageRef>
+</TargetAnchorable>

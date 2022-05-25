@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="cgajzLqFA0aI05L_CgzR_A" DesignTimeRectangle="59, 352, 65, 24" FriendlyName="'Documents'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' automationid='' check:text='Documents' /&gt;" Guid="98c78a87-089e-47a8-b7c9-2ca87c8a3d76" Reference="NIYzPsPVX02z9zVlWGFAIg/Sx6eQoYtP0qEoeXVLERYVw" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Speichern unter' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="51, 256, 54, 24" FriendlyName="'Dieser PC'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Dieser PC' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Dieser PC' role='outline item' automationid='' check:text='Dieser PC' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1a0WjTEztA0u-PucWnomtuA</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="743, 554, 92, 26" ElementType="Button" FriendlyName="'&amp;Speichern'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Speichern' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Speichern' check:text='&amp;amp;Speichern' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">293lnaJ5AbE2UjoKU9qnsOA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0EniMEhFN00CDBYB3_LcU3A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="736f94078da14d164b78f9bdfe21bafe.png" xmlns="">0R9JpTt2kPUmz0EOE4J3ODw</imageRef>
+</TargetAnchorable>

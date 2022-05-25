@@ -1,0 +1,15 @@
+﻿{
+  "Id": "OwmxaPHczEWOtzHNrwtUOg",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/OwmxaPHczEWOtzHNrwtUOg",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/dNKVhf-b1U6eVw3X96KPbQ",
+  "Name": "Adobe Acrobat Reader 2017",
+  "Type": "Screen",
+  "Created": "2022-05-09T10:18:31.1585425Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-09T15:15:44.4601987Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

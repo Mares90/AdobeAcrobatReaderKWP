@@ -1,0 +1,12 @@
+﻿{
+  "Id": "S0lYucT3i0au7RqZqNi_rQ",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/S0lYucT3i0au7RqZqNi_rQ",
+  "ParentRef": "NIYzPsPVX02z9zVlWGFAIg/iY-Qjhgmyk-bHQOFZBKi1w",
+  "Name": "Öffnen Adobe",
+  "Type": "Screen",
+  "Created": "2022-05-09T10:51:38.9199399Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-09T10:51:38.9199399Z"
+}

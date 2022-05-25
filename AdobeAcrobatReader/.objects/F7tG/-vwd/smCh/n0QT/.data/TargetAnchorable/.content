@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="nk8wzZ5ka02HvYiFuGFgtQ" DesignTimeRectangle="1393, 1, 46, 31" FriendlyName="'Schließen'" FullSelectorArgument="&lt;uia cls='MsoCommandBar' name='Ribbon' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Schließen' /&gt;" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' name='Ribbon' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Schließen' role='Schaltfläche' automationid='' check:fulltext='Schließen' /&gt;" Guid="f3750bb9-9b5b-4c6f-9b0f-0d462e740acc" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Test.pdf - Nachricht (HTML) ' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1347, 1, 46, 31" FriendlyName="'Maximieren'" FullSelectorArgument="&lt;uia cls='MsoCommandBar' name='Ribbon' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Maximieren' /&gt;" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' name='Ribbon' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Maximieren' role='Schaltfläche' automationid='' check:fulltext='Maximieren' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2JdNXhsOfJUGLZAC8b2qlFA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">01E8UJJJ3QUWlkrlRhb6IuA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="33e0b45cc3017d082afb0ce4622e85ce.png" xmlns="">0obqVNX5ybkaN8hEdWziqaw</imageRef>
+</TargetAnchorable>

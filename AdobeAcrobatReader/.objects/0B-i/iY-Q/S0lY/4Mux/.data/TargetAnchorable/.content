@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="uR_4PeJmIk2jmZVeu1Zbdg" DesignTimeRectangle="59, 416, 65, 24" FriendlyName="'Documents'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl name='Documents' role='outline item' automationid='' check:text='Documents' /&gt;" Guid="137c625b-3faa-4cab-a19f-6ab3483237be" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Öffnen' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="59, 392, 47, 24" FriendlyName="'Desktop'" FullSelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl idx='2' name='Desktop' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer-Fenster' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Steuerelementhost' cls='NamespaceTreeControl' title='Namespacestruktursteuerelement' /&gt;&lt;wnd ctrlid='100' title='Strukturansicht' /&gt;&lt;ctrl automationid='' name='Desktop' role='outline item' check:text='Desktop' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">7ZBnyNROUQ0GlUXbTnms_3Q</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="747, 554, 88, 26" ElementType="Button" FriendlyName="'Ö&amp;ffnen'" FullSelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='Ö&amp;amp;ffnen' check:text='Ö&amp;amp;ffnen' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">89buFscgPgE2dS936IfxWlg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">06TJCa6Mbd0W2yt31hD8FKQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e99c3538bb4396e15adeb961cbcf08ee.png" xmlns="">0BbAuswLBok6Q8U9PNM8eIQ</imageRef>
+</TargetAnchorable>

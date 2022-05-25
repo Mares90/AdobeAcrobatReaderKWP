@@ -1,0 +1,14 @@
+﻿{
+  "Id": "R2_HFts5ZUGgJ_XpcAR05g",
+  "Reference": "NIYzPsPVX02z9zVlWGFAIg/R2_HFts5ZUGgJ_XpcAR05g",
+  "Name": "Ordner öffnen",
+  "Type": "App",
+  "Created": "2022-05-09T10:57:03.8235886Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-20T06:30:08.0120246Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
