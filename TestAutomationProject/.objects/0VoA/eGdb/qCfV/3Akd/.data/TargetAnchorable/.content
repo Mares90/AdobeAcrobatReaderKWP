@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.bedag.ch/" ContentHash="98bsIfFzo0GI6YfEggNZug" DesignTimeRectangle="1170, 128, 38, 15" ElementType="Text" FriendlyName="'Menu'" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' aaname='Menu' check:text='Menu' /&gt;" Guid="efc2e6b8-31c1-486d-b853-ed10fa8ca289" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0Ab6tw27OZ0Osgp9Qn4A5qw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e585b001d985901295bdc1e14a4ec0d2.png" xmlns="">0yWe58hx_lUmcTjiNC0Exaw</imageRef>
+</TargetAnchorable>

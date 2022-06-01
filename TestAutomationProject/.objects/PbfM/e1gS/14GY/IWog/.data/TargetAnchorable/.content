@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="ZLFamsbPL0yFhpb-IY-rmQ" DesignTimeRectangle="1019, 294, 254, 32" FriendlyName="'Über Firefox'" FullSelectorArgument="&lt;uia automationid='appMenu_aboutName' name='Über Firefox' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu_aboutName' name='Über Firefox' role='Schaltfläche' check:fulltext='Über Firefox' /&gt;" Guid="dc97003d-62ab-42c5-a938-3145ff09e53a" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1019, 262, 254, 32" FriendlyName="'Betrügerische Website'" FullSelectorArgument="&lt;uia automationid='appMenu_menu_HelpPopup_reportPhishingtoolmenu' name='Betrügerische Website melden…' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu_menu_HelpPopup_reportPhishingtoolmenu' name='Betrügerische Website melden…' role='Schaltfläche' check:fulltext='Betrügerische Website melden…' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1s_5t_MtSoU6ykC7YyFHMMg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0X19DfdR83E2bwtxrjhkkLA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="dda7f59c281aef737635a0fa41219f02.png" xmlns="">0BzAplrHmLUa_OYXSHdEFyA</imageRef>
+</TargetAnchorable>

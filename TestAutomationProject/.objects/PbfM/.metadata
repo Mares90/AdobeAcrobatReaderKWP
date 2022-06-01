@@ -1,0 +1,11 @@
+﻿{
+  "Id": "PbfMzQ4SFUSLroAbaB8reA",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/PbfMzQ4SFUSLroAbaB8reA",
+  "Name": "Firefox: Startseite",
+  "Type": "App",
+  "Created": "2022-06-01T13:42:37.7973363Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T13:42:37.7973363Z"
+}

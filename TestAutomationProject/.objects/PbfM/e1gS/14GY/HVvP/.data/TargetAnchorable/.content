@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="GW6tBBF3SUmxHq2MVxZNBQ" DesignTimeRectangle="278, 174, 87, 16" ElementType="InputBox" FriendlyName="'91.9.0esr (64-Bit)'" FullSelectorArgument="&lt;ctrl name='91.9.0esr (64-Bit)' role='text' /&gt;&lt;ctrl name='91.9.0esr (64-Bit)' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='91.9.0esr (64-Bit)' role='text' /&gt;&lt;ctrl name='91.9.0esr (64-Bit)' role='editable text' automationid='' /&gt;" Guid="a3dcbb3c-8eed-405a-bf44-f8dbfce8a03d" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaDialogClass' title='Über Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="278, 193, 66, 16" ElementType="InputBox" FriendlyName="'Firefox-Hilfe'" FullSelectorArgument="&lt;ctrl name='Firefox-Hilfe Feedback senden' role='text' /&gt;&lt;ctrl name='Firefox-Hilfe' role='link' /&gt;&lt;ctrl name='Firefox-Hilfe' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Firefox-Hilfe Feedback senden' role='text' /&gt;&lt;ctrl name='Firefox-Hilfe' role='link' /&gt;&lt;ctrl name='Firefox-Hilfe' role='editable text' automationid='' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1eJNkUvKkX0--VsIhIADuMw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0vNmyRfZPr0qVeom2JRo4IQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="483c07ced651c0e4900f8aaec119ed91.png" xmlns="">0sg0JawtXf02apZvzPWWorQ</imageRef>
+</TargetAnchorable>

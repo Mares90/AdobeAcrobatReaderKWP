@@ -1,0 +1,12 @@
+﻿{
+  "Id": "2sKPxILUMUOhuOiRzd4XxA",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/2sKPxILUMUOhuOiRzd4XxA",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/KGZPL37jMEultvKhqF6r1Q",
+  "Name": "Edge: Startseite – Bedag Informatik AG",
+  "Type": "Screen",
+  "Created": "2022-06-01T14:53:03.8456571Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T14:53:03.8456571Z"
+}

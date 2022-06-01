@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="jSV2q0dtcEuAVCDpw3Rz9A" DesignTimeRectangle="1248, 44, 42, 40" FriendlyName="'Firefox'" FullSelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' check:fulltext='Firefox' /&gt;" Guid="c4940ad0-ec40-4053-887e-96c19e191fb9" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1244, 0, 46, 43" FriendlyName="'Schließen'" FullSelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' automationid='' check:fulltext='Schließen' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">17tODcnPDJk6Lpl7DbOiusw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0m3ohcuqD20KJf6r5GcdThA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b4e17591b098fc7d2ec9b1cbee5fc8e7.png" xmlns="">0pw5zr4DdVESdX93T21plDg</imageRef>
+</TargetAnchorable>

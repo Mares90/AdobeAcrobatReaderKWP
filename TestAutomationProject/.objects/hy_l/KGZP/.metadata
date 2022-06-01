@@ -1,0 +1,12 @@
+﻿{
+  "Id": "KGZPL37jMEultvKhqF6r1Q",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/KGZPL37jMEultvKhqF6r1Q",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/hy_lKRasaEC3mEnrsFFf1Q",
+  "Name": "-",
+  "Type": "AppVersion",
+  "Created": "2022-06-01T14:53:03.8227955Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T14:53:03.8227955Z"
+}

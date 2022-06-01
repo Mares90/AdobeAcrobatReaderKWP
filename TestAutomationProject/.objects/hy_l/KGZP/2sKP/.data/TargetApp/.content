@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="3pfySr6L902ESbl9PNYTHA" Selector="&lt;html app='msedge.exe' title='Startseite – Bedag Informatik AG' /&gt;" Url="https://www.bedag.ch/" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0pU3pJG_s30Cjv_npsgOqJw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="af887a21e3ff89450071cc9a11c29af3.png" xmlns="">0QJ58aH_dNUOPXwW3Vu_ZEQ</imageRef>
+</TargetApp>

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "NRQ-G1eg3EmryIx0sKcIFQ",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/NRQ-G1eg3EmryIx0sKcIFQ",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/14GYQS5TykupJBJHoe8G9g",
+  "Name": "Menubtn",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-06-01T14:04:13.2805856Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T14:04:13.2805856Z"
+}

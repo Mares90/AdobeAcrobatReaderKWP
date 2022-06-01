@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="Ur12XdS0l0ybo6UGNPctPA" Selector="&lt;html app='firefox.exe' title='Startseite - Intranet des Kantons Bern' /&gt;" Url="https://wwwin.be.ch/" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">09TFuL80-aU-6zQv-TmF51w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f5cb9d8dce0764a4f1b0e78c6aba977c.png" xmlns="">0P4cgLZJg4kafTYGZkk72UA</imageRef>
+</TargetApp>

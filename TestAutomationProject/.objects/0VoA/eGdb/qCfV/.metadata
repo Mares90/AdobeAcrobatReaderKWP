@@ -1,0 +1,12 @@
+﻿{
+  "Id": "qCfVp1AeUUqqKHDt4r8dhg",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/qCfVp1AeUUqqKHDt4r8dhg",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/eGdbUPbmOUCC1NbNtn2A0A",
+  "Name": "Firefox: – Bedag Informatik AG",
+  "Type": "Screen",
+  "Created": "2022-06-01T14:41:09.2127185Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T14:41:09.2127185Z"
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Id": "e1gSP6X0WE--vpbdgVFcEw",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/e1gSP6X0WE--vpbdgVFcEw",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/PbfMzQ4SFUSLroAbaB8reA",
+  "Name": "91.9.0",
+  "Type": "AppVersion",
+  "Created": "2022-06-01T13:42:37.8283506Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T13:42:37.8283506Z"
+}

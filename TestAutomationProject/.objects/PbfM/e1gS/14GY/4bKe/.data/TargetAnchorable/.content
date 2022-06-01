@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://wwwin.be.ch/" ContentHash="hEbdt_XsNUy7lMO94LVEmg" DesignTimeRectangle="176, 185, 193, 15" ElementType="Text" FriendlyName="'Intranet des'" FullSelectorArgument="&lt;webctrl aaname='Intranet des Kantons Bern' parentid='div-header-main-logohomelink' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Intranet des Kantons Bern' parentid='div-header-main-logohomelink' tag='A' type='' check:text='Intranet des Kantons Bern' /&gt;" Guid="ae136d8b-dba4-4186-a368-7068f2ce6e50" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Startseite - Intranet des Kantons Bern' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0IOQRowLH9Ea5VjsNTOzuqg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b98101810344339ba7d11cb8851fd019.png" xmlns="">0Dnoqejvvnk6iB3XlFhlMJw</imageRef>
+</TargetAnchorable>

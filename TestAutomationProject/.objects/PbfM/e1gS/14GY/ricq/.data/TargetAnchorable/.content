@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="oRa15PfBQUekATEw49EJqg" DesignTimeRectangle="1019, 572, 254, 32" FriendlyName="'Hilfe'" FullSelectorArgument="&lt;uia automationid='appMenu-help-button2' name='Hilfe' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu-help-button2' name='Hilfe' role='Schaltfläche' check:fulltext='Hilfe' /&gt;" Guid="5ebc1e31-adff-4ff2-8e1e-af88e6b027d7" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1019, 613, 254, 32" FriendlyName="'Beenden'" FullSelectorArgument="&lt;uia automationid='appMenu-quit-button2' name='Beenden' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu-quit-button2' name='Beenden' role='Schaltfläche' check:fulltext='Beenden' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1R23yi43RG02gkwpe99_tYA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0a4k7cpeNjkeuxyuvuY_8tw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5ab33736be9ba6cd29bcfc95ea60f99c.png" xmlns="">02GAhp763xUSLLv_Z8oVOvQ</imageRef>
+</TargetAnchorable>

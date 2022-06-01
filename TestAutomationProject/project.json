@@ -1,0 +1,70 @@
+{
+  "name": "TestAutomationProject",
+  "description": "Testautomatisierungsprojekt",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.Testing.Activities": "[1.4.6]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d4ce60c8-a693-4358-bbb7-c84ef777de9b",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2dc2108d-19f1-4801-947c-1fb23f6ac70e",
+        "fileName": "F01 Grundfunktionen\\S01 Software öffnen Firefox.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "41f12ca1-ac71-4dee-9cea-8d6e5fa42fb5",
+        "fileName": "F01 Grundfunktionen\\S02 Version prüfen Firefox.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3724e20b-8d5c-4ff5-b42c-b3c455c7811f",
+        "fileName": "F02 Webseiten anzeigen\\S03 Webseite bedag.ch anzeigen.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

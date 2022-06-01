@@ -1,0 +1,156 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="S01_Software_öffnen_Firefox" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1280,1203" sap2010:WorkflowViewState.IdRef="S01_Software_öffnen_Firefox_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="34">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="26">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="S01_Software_öffnen_Firefox" sap:VirtualizedContainerService.HintSize="1290,1138" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="FileExists" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1248,224" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:FileExistsX DisplayName="File Exists" Exists="[FileExists]" sap:VirtualizedContainerService.HintSize="384,132" sap2010:WorkflowViewState.IdRef="FileExistsX_3" Path="C:\Users\rbf5\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Firefox 91.9.0.lnk" />
+    </Sequence>
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1248,179" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="C:\Users\rbf5\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Firefox 91.9.0.lnk" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
+    </Sequence>
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="1248,563" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="1206,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+        <uta:VerifyExpressionWithOperator.FirstExpression>
+          <InArgument x:TypeArguments="x:Boolean">[FileExists]</InArgument>
+        </uta:VerifyExpressionWithOperator.FirstExpression>
+        <uta:VerifyExpressionWithOperator.SecondExpression>
+          <InArgument x:TypeArguments="x:Boolean">[True]</InArgument>
+        </uta:VerifyExpressionWithOperator.SecondExpression>
+      </uta:VerifyExpressionWithOperator>
+      <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Startseite'" sap:VirtualizedContainerService.HintSize="1206,370" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="12" Version="V1">
+        <uix:NCheckState.IfExists>
+          <Sequence DisplayName="Ziel wird angezeigt" sap:VirtualizedContainerService.HintSize="576,154" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+            </uta:VerifyExpressionWithOperator>
+          </Sequence>
+        </uix:NCheckState.IfExists>
+        <uix:NCheckState.IfNotExists>
+          <Sequence DisplayName="Ziel wird nicht angezeigt" sap:VirtualizedContainerService.HintSize="576,154" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_3" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:Int32">[2]</InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+            </uta:VerifyExpressionWithOperator>
+          </Sequence>
+        </uix:NCheckState.IfNotExists>
+        <uix:NCheckState.Target>
+          <uix:TargetAnchorable DesignTimeRectangle="317, 50, 766, 28" FriendlyName="'https://wwwin.be.ch'" FullSelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia role='Kombinationsfeld' /&gt;&lt;uia automationid='urlbar-input' name='Mit Google suchen oder Adresse eingeben' role='Bearbeiten' /&gt;" FuzzySelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia role='Kombinationsfeld' /&gt;&lt;uia automationid='urlbar-input' name='Mit Google suchen oder Adresse eingeben' role='Bearbeiten' check:text='https://wwwin.be.ch' /&gt;" Guid="054f74c3-99e5-4c7f-90a9-c1ecf8c303f7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAwIAAAAgCAYAAAChMM8YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANBSURBVHhe7ds7jlRXEAZgLwIn7IdJvJUhMIuwJSdMgAQSLMAOLHkCElvyCggYyQ5JWAEBeaN/cA3Vx/dOz6MbNTpf8GnuqVN9+vZE9ffjuw8fPm4AAIC5CAIAADAhQQAAACYkCAAAwIQEAQAAmJAgAAAAExIEAABgQoIAAABMSBAAAIAJCQIAADAhQQAAACYkCAAAwIS2gsCL5y83796932o4Br/9+vvmzZu3O2tfS573559+udP/6vsHDxfr+3Ly6IfNxdt/FvcAAKDcKghkAM4Avqu2T7mfDN27at8KQQAAgGNw9EHgrz//vrSr9q0QBAAAOAaLQSDvtpfay+Dd6wkAS7X05rr+lh4wxselVs87BpEXz1+t1hJAeiDIdV5DrSuk7Lsv13Xfcd3/bVRBIH/LOLj3vfPz11t7XYb+3lu1nDfWAQCg+18Q6ENsDce17oPwdbVxGE5PrWtg7nu93of+7GXor/VYG587998H9+ylZ999ue6vIT19nb5+TjcO5+d/vN5aZ5A/e/rsap29i4t/r9YlfaenP16tz84+P6bCQdXT0/sAACCu/WpQrvsgPA7Ka7VxoI+ck96lgX9NH7zXajWA57zs9f0+nB+qL3b937rLwX74BCDDewJB5LrvPT59cjXklzE8dHl8Pz/X45kAAHCwINDXkZ762k3OTU/UkL1k6ZyxVgEjZ0ddj/e+775+H6lnv9Zjb7c0wOcd+3wKUAP+aCkIrA33ggAAADfx1T8R6LVYCwMZvsdz12pVz3PWPVf9UH33CQK3+URgiSAAAMB9HSwI9FoG6Don/X3wz/f9s85z9QAx3stare6x32ete++++24aBHLdX1eCwNZ3+58+2xrULz8BaL8RKPmdwGWI+O/3AmNf/42AIAAAwC63CgKRoTb6MD/W6rrqUb01GJcKDH1gXnrepVpJvb9b34NHt8++/pqyl/urdb/XXNfryjoD/PgVoHpc6Xu1PwaBse/k5POwLwgAAHATW0FgX/qQfBcJB30QX6sBAAB3c5RBYOnx9z0TAAD44iiDAAAAcFgHCQIAAMBxEwQAAGBCggAAAExIEAAAgAkJAgAAMCFBAAAAJiQIAADAdD5uPgFj20eI7hL5+wAAAABJRU5ErkJggg==" InformativeScreenshot="d129022973e39fd1cb60b9d0102d6a55.png" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector">
+            <uix:TargetAnchorable.Anchors>
+              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                <uix:Target DesignTimeRectangle="120, 44, 36, 40" FriendlyName="'Startseite'" FullSelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='home-button' name='Startseite' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='home-button' name='Startseite' role='Schaltfläche' check:fulltext='Startseite' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAsCAYAAAAXb/p7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEbSURBVFhH7dOxDoIwFIVh3pOVOMKKqzOrjO5sDkw+AwuDvgMmhBAm4nDNqaKENEJ7G9PhmvwB2iJfCA2a5k4+F7RtSz4XjOODfE6A3ATITYDcBMhNgNwEyM0JsOt6yrIjheFOHXGtW2cTGwhMmh5UdX39nLtCsoBz3ATSjXGyBv6CuERaAbcAXCGNgSYPdoE0BuJh2K3YELr5ZViH9bhPN7+WMbAsL1ZA3KebX8vqG1wCcZ4kezWO43IO49O1aU6AcZxSnp/UWFGcFXKa8wI4v16CBKjLe2AUJe9v7qYCALsU599d/prDOnyjuv/ZkhUQbwUPBWQtrJu/bdOsgP9MgNwEyE2A3ATITYDc/AdWVUU+F/TDQD6k/xE9ARjnTn9vhqh0AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector" />
+              </scg:List>
+            </uix:TargetAnchorable.Anchors>
+          </uix:TargetAnchorable>
+        </uix:NCheckState.Target>
+      </uix:NCheckState>
+    </Sequence>
+  </Sequence>
+</Activity>

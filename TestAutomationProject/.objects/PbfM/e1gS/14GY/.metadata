@@ -1,0 +1,12 @@
+﻿{
+  "Id": "14GYQS5TykupJBJHoe8G9g",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/14GYQS5TykupJBJHoe8G9g",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/e1gSP6X0WE--vpbdgVFcEw",
+  "Name": "Firefox: Startseite - Intranet des Kantons Bern",
+  "Type": "Screen",
+  "Created": "2022-06-01T13:42:37.8389846Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T13:42:37.8389846Z"
+}

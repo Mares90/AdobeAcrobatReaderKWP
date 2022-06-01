@@ -1,0 +1,13 @@
+﻿{
+  "Id": "3AkdM0v6pkO5048C6QZS_A",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/3AkdM0v6pkO5048C6QZS_A",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/qCfVp1AeUUqqKHDt4r8dhg",
+  "Name": "Menu",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-06-01T15:09:02.3567866Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-01T15:09:02.3567866Z"
+}

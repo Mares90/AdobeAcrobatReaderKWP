@@ -1,0 +1,191 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="S02_Version_prüfen_Firefox" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,1104" sap2010:WorkflowViewState.IdRef="S02_Version_prüfen_Firefox_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="58">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="58">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="S02_Version_prüfen_Firefox" sap:VirtualizedContainerService.HintSize="864,1958" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Version" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="822,1673" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Schließen'" sap:VirtualizedContainerService.HintSize="780,1581" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V1">
+        <uix:NCheckState.IfExists>
+          <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="476,1365" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Private: Firefox: Startseite - Intranet des Kantons Bern" sap:VirtualizedContainerService.HintSize="434,1272" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,1056" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Menubtn'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable ContentHash="jSV2q0dtcEuAVCDpw3Rz9A" DesignTimeRectangle="1248, 44, 42, 40" FriendlyName="'Menubtn'" FullSelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' check:fulltext='Firefox' /&gt;" Guid="c4940ad0-ec40-4053-887e-96c19e191fb9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAsCAYAAAAacYo8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVGhD7dIxCoNAFEXRrCBbyB4ss4BswlandaPTWKQSsoYJVmLxYgikshgUHny4xek+n1u8SylFkdyah673pLjhy7IqEsLdCHcj3I1wN8LdCHcj3O10eNcNattUpe+H3R9HnA6fppfG8Vnle7v34wg27sbGa7DxDRuvwcY3bNyNcDfC3Qh3I9yNcDfC3eKH55wVyT/8Pc+K5Bee9AHcXsQGPYiJLQAAAABJRU5ErkJggg==" InformativeScreenshot="b4e17591b098fc7d2ec9b1cbee5fc8e7.png" Reference="RBBiNa503U-tSzTBd3Olig/NRQ-G1eg3EmryIx0sKcIFQ" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1244, 0, 46, 43" FriendlyName="'Menubtn'" FullSelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' automationid='' check:fulltext='Schließen' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAYAAADsvzj/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADMSURBVGhD7dO9CsIwFMVxn0BdM/kOjn7j4KNUWz8Q8cGzFoeUEJAMpUbIDaeXM/yX0uH8aO/EWuvG3GJ5cvPj2+mAHF46ILP9Uwlk99ACuSuBbG9KIJurFkijAzJd14TAFCAXJZDVmRCYAqQiBCZCfmWM6X0el/JOaqJfZGhoToRP/NfqG5wb4StyI/FwCYSv2LF7gBTCR8g/xQApDI89paHBuTFikJShOTHFjl06QtAiBC1C0CIELULQIgQtQtAiBK0vpG0/bswFSOU6F/KKv4YboL8AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Hilfebtn'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable ContentHash="oRa15PfBQUekATEw49EJqg" DesignTimeRectangle="1019, 572, 254, 32" FriendlyName="'Hilfebtn'" FullSelectorArgument="&lt;uia automationid='appMenu-help-button2' name='Hilfe' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu-help-button2' name='Hilfe' role='Schaltfläche' check:fulltext='Hilfe' /&gt;" Guid="5ebc1e31-adff-4ff2-8e1e-af88e6b027d7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQIAAAAkCAYAAABizTTPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGrSURBVHhe7d0/agJBHMXxPZM5jZBbCOmE3MQiNjlFmpzBKqBNAhbpTTXhCU/GZdSdMGRxf98HH3b+rHbzcEHYLhFCwociIIScF8Hh8JP2+++0232l7fYTwMTobOuM66znORWBNigAIAad9bwMTkWglih9AMA06cw7pyIo3QhguvSrwKEIgMAcigAIzKEIgMAcigAIzKEIgMAcigAIzKEIgDuyXr+mxeIpbTYfxf1aDkUA3BEVgIqgVRk4VUXQdV16e3u/uC75Pfl4tXo5zmezh7PPAqjTsgycpkVwbV1jlUH/HgD1WpWB869FULoHwN+0KAOneRGUxrracvl83Ouv+7sADJeXQWn/Fqe6CC65VgT9cX+uRwYXBIDhRiuC/DCX1oeMddU8N58/HvcADHN3jwb9sa6aawygXosSEGeUIvCcxwGgXqsSEGe0ItBYa8ajAXBbyxIQp6oIAIyLvxgDaM6hCIDAHIoACMyhCIDAHIoACMyhCIDAHIoACKr4ghNeeQbEUnzlGS9BBeK4+BJURRtqCQoBmCadbZ3xvASUsyIghMQMRUBI+KT0C6QBj/j9HG+fAAAAAElFTkSuQmCC" InformativeScreenshot="5ab33736be9ba6cd29bcfc95ea60f99c.png" Reference="RBBiNa503U-tSzTBd3Olig/ricqIoRqjE2FqO_goDNyTw" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1019, 613, 254, 32" FriendlyName="'Hilfebtn'" FullSelectorArgument="&lt;uia automationid='appMenu-quit-button2' name='Beenden' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu-quit-button2' name='Beenden' role='Schaltfläche' check:fulltext='Beenden' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQIAAAAkCAYAAABizTTPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM7SURBVHhe7ZhNUuMwEIVzrZyFfc4Ay5kLsGI3h4BNLgFVHIA1NcfI+EEe81BJjmVwforvq1K5u221rJT6Sc5qBwA/HoQAABACAEAIAGAAIQAAhAAAEAIAGEAIAAAhAACEAAAGEAIAQAgAACEAgAGEAAD6hGC1Wn1q2+12f2dZNNbLy8veg0vj8fF5d3W1+WjHQOO8vv7de+/UYt/NnDG++l7399u3HG53d3/2d6bTLQQuSF3lHwOE4HLRAtfiNPKfnp7f7K8WwBi13EuOZ+aMkX16+1sEEglBrxjMFgJxrAJFCC4XnQaur3/tvc8sWZi13EuOZ+aMkX16+us5PV9Dv3nPe8wWAn0WbDb/X0Jx3Xczrbjs29vbj7hsk338jMedkw9Oixardq5EMTfvXrZ1FV7oag8P7ztfubh7RCZjsvOTRXYesTWe0RiO+zQjanHZmTfzeG5quWPLz7mW90VtnhqnfM4onmMfolsIsiXyXawSCRfiWNxConjmk+3/H0ohmJMPTo+LJgvJBWDkp2DI12IXSwiB+7pwPbbeUb5oFZv6luImMm/mKVE836VmJ7V5avyWEOjeokLgItTVvu1sKspWXMh2LmFfbb1e76Pv5D3ncTuUD84HLXAt9Nw9c9Gnr2u5+H3feco2JjIiY+X9lq8mO4vesRpjefOkkPGWrWs+7+Z5jp0IjiYEQgWr3dcFWtKKi1bhqh0SghqtfHBeaHF68WpRe9GL9HVtCUFS2ymF4vmsbPU3Y2OL0ldhKaYiLHMlrTxln5ub3x/PZZ+yv6nNs8yZlPM/xLecCITs2nf5WLxVuLLHPg1688Hp0K6VC1IF4J2qXPQ1X/1F76eBxCbvyc/dc8rY5Vi5yyp3nhJMK4/m4feRn8+17GTqPIX8nOsUuoUgWxaa7LznI3srLrtVuP7GVyuFYE4+OC1a3G65QGVnrCyCPEq3hGAMFYT7l8VS5mr5+Q5qScanfO74fXRtnQjK32QKPq1ky3eYQpcQAJwKLWwtcDiMf6seQUAI4CLQDqldFJYBIYCzJY/2nAaWBSEAAIQAABACABhACAAAIQAAhAAABhACAEAIAAAhAIABhADgx7Pb/QMOm1ugCYZZ0AAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Version'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable ContentHash="ZLFamsbPL0yFhpb-IY-rmQ" DesignTimeRectangle="1019, 294, 254, 32" FriendlyName="'Version'" FullSelectorArgument="&lt;uia automationid='appMenu_aboutName' name='Über Firefox' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu_aboutName' name='Über Firefox' role='Schaltfläche' check:fulltext='Über Firefox' /&gt;" Guid="dc97003d-62ab-42c5-a938-3145ff09e53a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQIAAAAkCAYAAABizTTPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG9SURBVHhe7dpRjtpAEARQrsWF9jrchstwGMf10VHtBCRIULQy70kj7J6xzUrp8uwqpw34eIIAEASAIAB2ggAQBIAgAHaCABAEgCAAdoIAEATAXwTB9XrdzufzdrvdttNJjsAR6GTgtSDIDiA7gda1e/P/Ivfrcblcfu9EXn1OdjK5LrsZ4LsfHwTvul/ulTAA/vRRQfDO7wZH8vYgmC14RrbyI2umnjFy/PX19a02UrvXvF1fr7/3nD6f77Sum91CfnWYNfOHUTi6twfBNM40Ws/NcRpsmi31DoyWuR7TrDnu+/b1Pbc+Z+rR90t9vWd/wtG9PQh6Pm/qNNs0Wo/MxXpNezTX9T5+9jmzrs13jXxmfs7h6F4Kgvn/A2NtqG62yPoOgnvWa9qjua738bPPubdOEPDJXgqCNEv/zpzzeeNGmme24muz9VxLfRp09Wiu6+uaZ5+T82n01HM+5rhrcGQv/0tPEKRBMjoUIrUEw8z3G3WabcYESI67Qdujua6va559zrpu5vIzTZDkc/0Z4Yi88oD/EwT95u0B/Ay6ERAEgCAAdoIAEASAIAB2ggAQBIAgAHaCABAEwLb9AoEWpdi3HHx8AAAAAElFTkSuQmCC" InformativeScreenshot="dda7f59c281aef737635a0fa41219f02.png" Reference="RBBiNa503U-tSzTBd3Olig/IWogRvHsjUG7KW96OR6Mcg" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1019, 262, 254, 32" FriendlyName="'Version'" FullSelectorArgument="&lt;uia automationid='appMenu_menu_HelpPopup_reportPhishingtoolmenu' name='Betrügerische Website melden…' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='appMenu_menu_HelpPopup_reportPhishingtoolmenu' name='Betrügerische Website melden…' role='Schaltfläche' check:fulltext='Betrügerische Website melden…' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQIAAAAkCAYAAABizTTPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMKSURBVHhe7ZcN0towDES5FhfiOtyGy3AYmu1829m6lvNHBijvzXgi27KkWLYCpwcAfD0UAgCgEAAAhQAAJigEAEAhAAAKAQBMUAgAgEIAABQCAJigEAAAhQAAKAQAMEEhAIB1heB0Ov3Vbrfbz8x7cr/ff8ep51q2rhOXy+WfvWntaV56I9bEsOddn8kohneID/qsLgROpA/eHEuSfz6f/1yM6/X6M/pa9hza9pJ7r/LdJM+9654Y9qzdw8jvq2KCeTYXArEksZ+a/D1xa52Km/Glz+Kg+SP37lX7PvL7qWfhG9hcCKqvnpvIvnUtp04ejuynTV2kak7NSK7s6/JZP3+698Ytezy/3pXvJC+65dRNefQuVQxVzK0t7/uSmDWe/iR739WW7IFkzYnUWZO/yiccR/9EFDg5bon6TrIPkMhxoX4mtzfvvmQf8vYgpdz669mXThYuowuV+kbrNCe0Vn1T+U7ky7HbjsZ6sVT2MgbNW69db9JOyqLykaQ/6ahvPfdNZS/HJWtOaL6dq9b73VqfcByrC4GTp6f7lrM5mdYxS/tqPpQm5yRnm/PnNXkBPNZjzk623qXUIda4n0K+s4mRPckZg+15Tb6LSP2URz6SXCOq/she6jwzf3AsmwuBUKLzYPaYS2zVV5s7SD3m7OvyaGxr3KM1ifQUv/zJl8d04DVu2yN7bQzeb5PvIlI/5ZGPpPVX9Uf2UueI/MExzJ+OIJPiZLovuf1CibnE5uHWs7XpOR/6vf6E1nmtL2vLyE7lu0W2e3bUkspejstGu05o3jqazxhbv3Mx99ZU/cpeq/Os/KlJFpUM21m1g9rwbJkwJ8TNP/X0zH67zpffOjmfc+1BqvyljnA/baklOe6DK7lnR1S+WxRz+1WUbqtf2bPsccdWvYtkx+h1trUk5lwvRv3KXuo8M3/WF5UM2/mYHSThAMfxMTdLX4z26wrPQ0V2aYP/j7fOqv9jcwABjoXbBQAUAgCgEADABIUAACgEAEAhAIAJCgEAUAgAgEIAABMUAoCv5/H4BZFvijZ0GIm8AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NGetText DisplayName="Get Text '91.9.0esr (64-Bit)'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable ContentHash="GW6tBBF3SUmxHq2MVxZNBQ" DesignTimeRectangle="278, 174, 87, 16" ElementType="InputBox" FriendlyName="'91.9.0esr (64-Bit)'" FullSelectorArgument="&lt;ctrl name='91.9.0esr (64-Bit)' role='text' /&gt;&lt;ctrl name='91.9.0esr (64-Bit)' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='91.9.0esr (64-Bit)' role='text' /&gt;&lt;ctrl name='91.9.0esr (64-Bit)' role='editable text' automationid='' /&gt;" Guid="a3dcbb3c-8eed-405a-bf44-f8dbfce8a03d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFsAAAAUCAYAAADiOEEgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIzSURBVFhH7VW7jQIxEL0aroKrgwrIKYKYlA7ogIgCqOCCDTajC0RAHz7P2N59Mx57QUgWhzzS093a83vPY/P1871yHW3QxW6ILnZDdLEboovdEF3shpBi7y4u2e24FY5h7+L2uIaoxT7j8yI2x7tzw2H63g+xoLu709rwvZ7dBtYkDm6M0cnGXdxbn93NyEmgmha/WWwOTmJSkZRo605XX2W4+LWC2MVYBK0v+bwI6gPEK5EOiEIuig19Cp4IzYc0y/lNYtMpY2P6W4olsRzrQVMNE2f6vAiZ0/dbEZJ8x6M8nBxaRP1dWVd8Cc3EztawGZ6YZKlGvFHRwvUNpMbBX/+sFzVNnJ9uYzQUlepRbXUTcigRhYBpj/6CISeVe35GKJEi+qjYy7E1sXNC7CeIJQRiOve8B/1xT3Pe+UmBQ3lIbDTkj30rDtO+1Ev8QJIgwcL0SFJ5MKIeWxFbTHU0WM970KRwT4mNhxW/RR8otugj5VH12McS2OpL3TQPITaCJmH65WUoMhXksR6K/ESaCSwfIj4jklSC6s8U+9f7GFacbl0v3Nq8F6sv1Y+HLTY1ljWgg60CHiIWfISoGEv/l56GgHkaCzUZepLQF0UC4GSbUPWemWwjN4hNAcmsSaP9ktilWNUEHUQ0QZxJgNFEgm/xWitkTxXmxSnH/UWx0bC27IVuM1uqwzdJ1iw+I/8Si+K1Qv5eEz5LbA9+460pbgiecqOHjxP7ndHFbogudjOs3B/ssIEMtoj7MwAAAABJRU5ErkJggg==" InformativeScreenshot="483c07ced651c0e4900f8aaec119ed91.png" Reference="RBBiNa503U-tSzTBd3Olig/HVvP1YJiQE-3fW6ggVN0FQ" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaDialogClass' title='Über Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="278, 193, 66, 16" ElementType="InputBox" FriendlyName="'91.9.0esr (64-Bit)'" FullSelectorArgument="&lt;ctrl name='Firefox-Hilfe Feedback senden' role='text' /&gt;&lt;ctrl name='Firefox-Hilfe' role='link' /&gt;&lt;ctrl name='Firefox-Hilfe' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Firefox-Hilfe Feedback senden' role='text' /&gt;&lt;ctrl name='Firefox-Hilfe' role='link' /&gt;&lt;ctrl name='Firefox-Hilfe' role='editable text' automationid='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAUCAYAAAAwaEt4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVFhH7ZSxEcIwDEWZgQmYgwnoGYKalg3YIFUGyAwp0rEFR8Eewo7sINkSsRPSyXfvkC3F/PzI3h32RzByzBgFM0bBjFEwYxTMGAVizB0G4OPVXOBw6uAFb2hP/MFZrg/c5NnBWcovwmuUtJB1pjepr9CUGLPAABE0ebhKuTUUGKOu12na0Jh/7UUpMUBbr9NUYEy++dC/nfcPuPn82Lpx+DVf8x3jcczq4pe7QPskNb7Vf7Z5uUYel2gK7xP4eceg+PSPyMYs53AvhrlkPTw3tXF2D0RDubgc3EcedL+5WJhP2nG+qGOmmqQLxtHflTr+0reeGBUuRXb+xa9Zq1GLHap2zP/BGOkrz9fNGiNSq1GLHap2ZJ0x45weLbqe1/GjRLvAx/E3PiOR7iutl8RxLmlHVhrjSFtSOkpZXczxy/fcuEt9k8s3jQOidswRYwzKZIwNHJkxBseMUTBjRI7wAVbXPSzGnREkAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.Text>
+                        <OutArgument x:TypeArguments="x:String">[Version]</OutArgument>
+                      </uix:NGetText.Text>
+                    </uix:NGetText>
+                    <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="334,178" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(esc)][u(hk)]" Version="V1" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="Ur12XdS0l0ybo6UGNPctPA" IconBase64="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" InformativeScreenshot="f5cb9d8dce0764a4f1b0e78c6aba977c.png" Reference="RBBiNa503U-tSzTBd3Olig/14GYQS5TykupJBJHoe8G9g" Selector="&lt;html app='firefox.exe' title='Startseite - Intranet des Kantons Bern' /&gt;" Url="https://wwwin.be.ch/" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </uix:NCheckState.IfExists>
+        <uix:NCheckState.Target>
+          <uix:TargetAnchorable DesignTimeRectangle="1248, 44, 42, 40" FriendlyName="'Firefox'" FullSelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' check:fulltext='Firefox' /&gt;" Guid="9aef21c8-fe85-47e3-823d-34f7dc8081e3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAsCAYAAAAacYo8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVGhD7dIxCoNAFEXRrCBbyB4ss4BswlandaPTWKQSsoYJVmLxYgikshgUHny4xek+n1u8SylFkdyah673pLjhy7IqEsLdCHcj3I1wN8LdCHcj3O10eNcNattUpe+H3R9HnA6fppfG8Vnle7v34wg27sbGa7DxDRuvwcY3bNyNcDfC3Qh3I9yNcDfC3eKH55wVyT/8Pc+K5Bee9AHcXsQGPYiJLQAAAABJRU5ErkJggg==" InformativeScreenshot="ab889abbad0e08de781755c65099114d.png" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector">
+            <uix:TargetAnchorable.Anchors>
+              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                <uix:Target DesignTimeRectangle="1244, 0, 46, 43" FriendlyName="'Schließen'" FullSelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' automationid='' check:fulltext='Schließen' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAYAAADsvzj/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADMSURBVGhD7dO9CsIwFMVxn0BdM/kOjn7j4KNUWz8Q8cGzFoeUEJAMpUbIDaeXM/yX0uH8aO/EWuvG3GJ5cvPj2+mAHF46ILP9Uwlk99ACuSuBbG9KIJurFkijAzJd14TAFCAXJZDVmRCYAqQiBCZCfmWM6X0el/JOaqJfZGhoToRP/NfqG5wb4StyI/FwCYSv2LF7gBTCR8g/xQApDI89paHBuTFikJShOTHFjl06QtAiBC1C0CIELULQIgQtQtAiBK0vpG0/bswFSOU6F/KKv4YboL8AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector" />
+              </scg:List>
+            </uix:TargetAnchorable.Anchors>
+          </uix:TargetAnchorable>
+        </uix:NCheckState.Target>
+      </uix:NCheckState>
+    </Sequence>
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="822,153" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+        <uta:VerifyExpressionWithOperator.FirstExpression>
+          <InArgument x:TypeArguments="x:String">[Version]</InArgument>
+        </uta:VerifyExpressionWithOperator.FirstExpression>
+        <uta:VerifyExpressionWithOperator.SecondExpression>
+          <InArgument x:TypeArguments="x:String">["91.9.0"]</InArgument>
+        </uta:VerifyExpressionWithOperator.SecondExpression>
+      </uta:VerifyExpressionWithOperator>
+    </Sequence>
+  </Sequence>
+</Activity>
