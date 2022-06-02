@@ -1,0 +1,13 @@
+﻿{
+  "Id": "g2CkqLbcTEOdWrFP4KE7OA",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/g2CkqLbcTEOdWrFP4KE7OA",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/qCfVp1AeUUqqKHDt4r8dhg",
+  "Name": "Workplace Services",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-06-02T08:56:18.3806687Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T08:56:18.3806687Z"
+}

@@ -1,0 +1,179 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="S11_PDF_Datei_öffnen_über_www_bedag_ch" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1356,1608" sap2010:WorkflowViewState.IdRef="S11_PDF_Datei_öffnen_über_www_bedag_ch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="S11_PDF_Datei_öffnen_über_www_bedag_ch" sap:VirtualizedContainerService.HintSize="1366,1543" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1324,323" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="434,231" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="96517c4d-36e7-41a9-8db7-a34ba08936ad" Version="V1">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="oCdMCqNTjEe6ijXuCu2TVg" IconBase64="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" InformativeScreenshot="925c8441c7db4d6ce2029a8cc0b25515.png" Reference="RBBiNa503U-tSzTBd3Olig/qCfVp1AeUUqqKHDt4r8dhg" Selector="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" Url="https://www.bedag.ch/" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1324,1088" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="1282,996" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="889492e2-9266-49d1-a0d3-c8a1de03c670" Version="V1">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="1248,780" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="1206,81" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://www.bedag.ch/de/medien/downloads/" Version="V1" />
+              <uix:NClick ClickType="Single" DisplayName="Click 'Geschäftsbericht 2021 PDF'" sap:VirtualizedContainerService.HintSize="1206,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="889492e2-9266-49d1-a0d3-c8a1de03c670" Version="V1">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.bedag.ch/de/medien/downloads/" ContentHash="HpoMsE9wSkq8iAFdBeEwDg" DesignTimeRectangle="120, 498, 1120, 60" ElementType="Text" FriendlyName="'Geschäftsbericht 2021 PDF'" FullSelectorArgument="&lt;webctrl parentid='list_2ff08b99' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='list_2ff08b99' tag='SPAN' type='' aaname='Geschäftsbericht 2021' check:text='Geschäftsbericht 2021' /&gt;" Guid="a8f87410-ab92-41c8-ad52-746df9d74109" ImageBase64="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" InformativeScreenshot="c77467c0f5b8ff61d73cd2c4a6e66076.png" Reference="RBBiNa503U-tSzTBd3Olig/fE_nMMLDAU2pDLdRtZb5lg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Downloads – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="1239, 518, 373, 21" ElementType="Text" FriendlyName="'Geschäftsbericht 2021 PDF'" FullSelectorArgument="&lt;webctrl aaname='2022' parentid='list_2ff08b99' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='2022' parentid='list_2ff08b99' tag='SPAN' type='' check:text='2022' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAXkAAAAZCAYAAADUgF7TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKkSURBVHhe7dzPS5NxAMfx/pIheOjQbc0OUotmQmDgspkYOErCEiGCYNJOg0UQSAgSEjIL8eCIJJIwQolOIgSTeRBFIiEXSIfFCBYIn/bsF9uc+jhoa1/eh9fhefaZx7cPz57tVPrPvgAAZiLyAGAwIg8ABiPyAGCwBkQ+rc3ZZ+o/65PT4ZWztV/Xhha1mTq4TSxHNNh2Qy5r5/DpgueJXm+kD+zSu1/0fOCe2lusXY/a2x5pbPln7TsAMETdI5+IhuQ+E9T0+u/cueS2pntvyj34SXul26059bUOK/T+u5LWceqX1iaDmfeGtbBXskttaOyiT92BVe1k/1GktfNxQt2Z946v1bADAIPUOfLreuzq08OFiqvxrVldd4xqpiTeq8Hb6gyul+8yYf5wt0+3ppLFc3svg3JdntV2lZ0nEDvxDgBMUufIxzV1Z1LvvlaeX9KIY0hjxSvqH3pxxauRaOkmJx4ekitz1V84/vZmUg8m4mUbi7Vz+peKx3Z3AGCS/+OD188T8rSENF+8L7+iwOnDI+88H1G84ny5pGZ6vOoKb1V5rZTdHQA0p8ZHPnuvvEedgZhSxfPWlX3tkc/e928Z1cxu9dcL7O4AoFk1NvL5wJ/reKVY2dM1tUc+F+4B3Y8e/dSM3R0ANLPGRT4fePfVuYrAW2q7XZML96ACC3YCf/wOAJpdYyJfCHzv26rPx5/kg9eCXLiHFTrmuXe7OwAwQf0jf2zgc+w+Qmkh8ABQXX0jnwn8eIdPbv9i/gtJR7D5ZahENKxLmd3TlfyXqw5hdwcAJqlv5Nci6sr+REF1lbdn7Pyswbz/4N8pKrl3b3cHACZp3AevAIB/jsgDgMGIPAAYjMgDgMGIPAAYjMgDgMGIPAAYjMgDgMGIPAAYa19/ATwVTOSd+UVHAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset Position="TopLeft" X="43" Y="30" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State '2021_Bedag_Geschaeftsbe…'" sap:VirtualizedContainerService.HintSize="1206,370" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="889492e2-9266-49d1-a0d3-c8a1de03c670" Version="V1">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="576,154" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyExpressionWithOperator.FirstExpression>
+                        <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
+                      </uta:VerifyExpressionWithOperator.FirstExpression>
+                      <uta:VerifyExpressionWithOperator.SecondExpression>
+                        <InArgument x:TypeArguments="x:Int32">[2]</InArgument>
+                      </uta:VerifyExpressionWithOperator.SecondExpression>
+                    </uta:VerifyExpressionWithOperator>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence sap:VirtualizedContainerService.HintSize="576,154" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyExpressionWithOperator.FirstExpression>
+                        <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
+                      </uta:VerifyExpressionWithOperator.FirstExpression>
+                      <uta:VerifyExpressionWithOperator.SecondExpression>
+                        <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
+                      </uta:VerifyExpressionWithOperator.SecondExpression>
+                    </uta:VerifyExpressionWithOperator>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="52, 66, 363, 16" ElementType="Text" FriendlyName="'2021_Bedag_Geschaeftsbe…'" FullSelectorArgument="&lt;ctrl name='2021_Bedag_Geschaeftsbericht.pdf' role='text' /&gt;&lt;ctrl name='2021_Bedag_Geschaeftsbericht.pdf' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='2021_Bedag_Geschaeftsbericht.pdf' role='text' /&gt;&lt;ctrl name='2021_Bedag_Geschaeftsbericht.pdf' role='text' automationid='' check:text='2021_Bedag_Geschaeftsbericht.pdf' /&gt;" Guid="4ed22b76-4dc3-4225-96fc-898759237aba" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAW8AAAAUCAYAAABCrryiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO+SURBVHhe7ZnRkaswDEVTFfXQDcXwtY1QSzpgsbFAEpLsMMksbO7HmXmxkX0lrBtv3uP5fM4AAADuBcwbAABuCMwbAABuCMwbAABuCMwbAABuCMwbAABuCDPvaR66x/x4EN08TPzhce63ucfcj61xK2Of5vp5VOMSuUe0Xo1p6HL8rvOdGDq7YZ7MZ08yDXOX1u1He/4k63t4Ue/Y55humOz5V2hZ60O5a6wzcqo+APwBzLzHedgaisyJzLZ8zgeazHqf8+MS3NxbzVvtW4078jHzLuYjjWXJsb++eVNNhHGWfMI6Xc28WzQ3oM+IWR8ALor7s8l6Aym3XtVwkTGKOPq8GJs0fA9t1vqLop3PmDf/ErPm38gHzZvXhG6aYZ3ead4tVHJv0tyAZ97vPTMAfAbHvKVpHg6128ye2baasDJvq4lpjGBGSjo5WfOZmDIvaDUxdz/Kr0B5qefz+jTWdfscrRPk480d8lz2JhPkY6ZGyrvvj1oiPXo8vVddQ/VMLXdbc9GRqGj13rdVH7EuABfDMG8y2r3B6GDH5n2MO861mjeHx5R5aixqcmYwNOfezrh2lUftRqfrIBue/trwNa7rq9/wN6NiZmiMH94BIXII6uOsoXM2NVJtlZbqnvRvvh7XezL38D1FWmmuaNXruDUG4IIo897Nkx/gw6EWhuHH7Zy8eW9xpfmp+TRLM1YbcTOSlaT91eYVRsDGheEFGik+QWt4awoTTJ91zY18or1TjJWfV4PEtpe3d1o32lOZsF7rbO5asyDQWnvfVn0AuCrMvPeb8+HwqoaQhzyI2zhr3nIvt9kXosakuRzHcqk18wHLjBbWdVbzjjRmyv6ZZZ0fb8/AwLx8antb+ekaZJTGie2R55m2cE+rXobeV3JPn03NRKC19r5dPQBckN28qWGpYQTFVHMTKiMO44iz5k1x5VZLjcjXGQfDNPkXilyDP+fHlLUNZMw6xs070kjPi3paBpdwDezHzae2Nz3L87PGVphGesdFo4iJ9rRy4+b6cu5rzbVmUYNAq3jOeN96XQCuzGbedHAlxZDSM1uTyvFqXIYahTW4CZm3RDST0JHY96KbFSfHUkMvdB1vYBlDc9XmZettcANyNEp9Xm2LtsjAgnyi+tjmxGq+7GVqtPLlX9benjTumbcRW809ryM1C1OuaHXPyDIH8wZ3wvgPy+8FzfsPOBg9AP+TPzJv64Zdu5V/GvYzwSX1gSZg3uBL+PKbtzJp/dsruB8wb/Al4GcTAAC4ITBvAAC4Hc/5Fyamvxwd0PtlAAAAAElFTkSuQmCC" InformativeScreenshot="18b2ef34f48c177bca0453e368447381.png" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaDialogClass' title='Öffnen von 2021_Bedag_Geschaeftsbericht.pdf' /&gt;" SearchSteps="Selector, FuzzySelector">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="22, 151, 403, 16" ElementType="Text" FriendlyName="'Wie soll'" FullSelectorArgument="&lt;ctrl name='Wie soll Firefox mit dieser Datei verfahren?' role='text' /&gt;&lt;ctrl name='Wie soll Firefox mit dieser Datei verfahren?' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Wie soll Firefox mit dieser Datei verfahren?' role='text' /&gt;&lt;ctrl name='Wie soll Firefox mit dieser Datei verfahren?' role='text' automationid='' check:text='Wie soll Firefox mit dieser Datei verfahren?' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZcAAAAUCAYAAABBNXDPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARaSURBVHhe7ZnLlesgDIZTletxNy5gyvDqNpJa0oEvYIQlIQFJHCeLf/GdMzEg9JaTuT0ejw0AAAA4EwwXAAAAp4PhAgAA4HQwXAAAAJwOhgsAAIDTwXABAABwOnm43Ldlum23222bV1pctzl8Fs/uyzbFZ9Oy3dc5rU3LPe//APwO975Dz8K8NvaPs85ZXrTXWP8ob+h/X6Z0NsXtijiZGHH5lB4X2jiUE1QnMQ+t9ZMouiSmbbnb+wD4BuWbCzWkUqBUIPwZL+IrCnrovtzEdLG/qV/lj6vR+ufPx/D3+anhwuJCeg013SfsvcrG4Zy4args5FunBgD4IsfPYrlAqSD2Qpq2KX6jEc8GC/4MeNNwG8hnCutyWzvQW+rTw8VYvwYrLvQNuf+W/Yy9VzHs14uGywGGC/g92P9cZIKm4g5/L6nI522lZ/nvqtmzbzoJM9HzHQQVHw22TJH5znDh+7VuZIOjMzWRQkfPsl8N4aq50H1TGNpZRmy088zuU3fFO+TPH2wPo9I5kJqg9psbJyc23n7PpwU7LqJBO7Jdez1dzNwwBhmd92xo2PZn5UTvPI9zQ3bymyeLcs6SlbB+0gbg+7DhQkkakz03hlBAezOIBZrXVdLvBX3sT7KoUOhzZm8a6q2ViifvFc2H32E2kIhqioHqbClcfndbZ6FHXG/pKRqZ3VQTdEdeIxm7TNUMlb3UcM0GonQTe4Uc32YzNi0fmT7l2H4gm6s4du1t6KLOFtRzGbPnbatygsPvovMqzumcKbtvmynL+AzAr8CGCyVqSPp1T25eDNOypAIoBcyLiQpAQ8Ui5O9rJKdqIkZh8TvK/QW7iYn9qtj5ekXWWRdtU0/+OeE0XHWG7pC+yGeVvXWzPdBrQnfDhxVBHys2TR9ZPhW0h0vlx4xrb0sX5asDrgN/eerIc2yrdI9Y+qs4C/0s2QO2kSw7Z/S3RgC+jxgupQjCV/CjQVKB7l/LdbHHJNcJ34QXUiiwP91EeGGyO8TfQuZrw6Wns24kVbPTDYQ+J35zuHTjlPcmgq/+tfYbPpVYcZENnvRO8jv2NnVXZznFp/mFyfO9wLFN+DV8dvXXuWGtjeYixWREbwB+CDlcqCGI5KeGEGFvSFbBiPXFbrAJ1nhUYxAFzNfUPlMWf27px/d0dNaNRN8v19lPWtTEtD4R1XR0oyiN0BgulT4MKeeIV+XDoTgxf7b2Wz4V1HERzZj7LMjTvqjsbeni5kYgn5MvTMfzZ2yTOjX0p/ODw6WpSz7bzhk7LwD4Jmq4sEFChRGghBYFoQu6FAjBCjlDhVCtUwFlikx+h76v8OJwiTR0rppbxNFTNk3mL+bDBN33wnApdlpyy1lJNVziXsdmNzaejzyfFpi++iztYf7cm3/HXk+XylccltOj8Xdsq3LC05/Ok95cP89vHdvaOYPhAn4PNVwAAACA98FwAQAAcDoYLgAAAE4HwwUAAMDpYLgAAAA4mcf2H9hZb29Nj4i9AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="oCdMCqNTjEe6ijXuCu2TVg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAlESURBVFhHrZV5VJTXGca/48kfaQUZI0ZjXdDEmqBWTFhnRtn3ZVhkF0RAAZUlorFqYkVptKhFrVZjVKx7xIgKEpdExOrB4DHgAojCsCOICIhoVODpcwchkGAaezrnPN/9vjvz3fd3n/d970j/zw8eucWhxbUJzS4ySvot6nfyf1QKAUAAoMklmZJ+i/qdfG01OsXhoXNX8GZK3Dc6uVPiu19Vv5OvpXt2eqi3Bx44MriL2L0IDjQ4NnFefCf9mvqdfC1VWqWg2gaoI8RDBha7FzD3HThnl4caWxklvUr9TuLAsBAcHZVFST26qJBRYvxJRXI93J0GlFkAVdZdQRsYvIGjcKXWFoTLo6RX6ZeTm4eGYJcuOvYPb6EkIRxSxHWcUlRQUm8h3ygEt0yB2wqgdHpXwHt2YuddYw2fBViFdQpqVHqoVRlQUm/1eUDiCHckvQ1s0QVSNJKQpEzBDiV+3Ke4TEm9hZwpybj6IZBnBA2IcKLSqiuoSEs1R/Fcbo2nRTbx7VWqCtS4GlB0uks9N1gyVoYVo5rw13eA9UOBf74FbBqXh6SPgM3GwDZlHiWlGatlJ0zL49LNKtNy55xoyo/fh8LEzWg6FYiO63ShhCo1B9SEKbekCFBGmBJbtBQ6n0GVcxmqHWUUHXcUKei6Qfx7KViqB6wcCawZDvydDmwnxB6Ohwn11XvIDd+6Ms2krCnDrAqn5TU4q6jFGSpTXo0TJuXICslE22W2YZGcaVECdwQMAUoJcNcOHcUOLZ0VrJFKh2SKBexAAHETMVGG6AnAoneB5WOAhD8Aa4cByUP6QDw/rI9vvS7gpHk9vpl+H+eU9fhWUacBOSWvQppxKdIds9FyhgfSTTOggAVaRBeKCXCHNVHkgM4SFmi5XRMqbGQUAXhB6OQ4ROoDMX8EFo8DPh0NrOqGYPBtLyEOEeKQPq4v2oLjNg+RbtWITIsHOC1g7EvRcjkUTdnBqDk6F/iBLvxAF/KZihushVsEKODuiwmhJlC5dQhFAF4QNDUNYZOBqA+AheOBdaMYkKk4SJCjTIvQXqZhNyEOMj1fj0LbAQWufrwfX9s1a2COWzXgmLIaZSnLu+rgDnefS4ArrIdcAlwjQD4B7ggX2B2ltikUAXiBr2ETggyggYhjKvazE46MANKYjlNMyznOXaBD2ROBLI7fvc/dGeJZvj32ubThkFMrDtPVQxZ1OGJ1E60XmYJCOnCLyiZANgEu8VzIIUChPTqLeV9sn0cRgBd4mAB+hkAwIcIJsYJp2E8A7hTpY4HTdEUEvTgJ+J6/YdtVZ87DkZjb2OH5HLtVT7HH6RH2WNdjt1yN7Oht3C1bU+jfPCO+oeVnGfQ8T8oCa3QW0I1CAcMuqP19vAFcSOopINhyAkI4sYDpSOTuD9N+uvAwVYljS3ZibWA5Vvs/xprAZ1gf0I5Nvu3Y4vUjtrk+wnbbemyXl2Cv9bkuUKHLXPMoLU9j8aXzf6JQiU6Rjjwe2XnOGgAL2DNf3RC+dEKkI5QQEbR7lx4a9xpiud0FxDsXYZF3JRYH3sfS4GasCG5FYkAb1s1oQ7JLMzbZ1GKTWTGSJ+d2pSubjmVxrT3c/X4GzCTIDTk6mI7Oyy5CkpQqi3r7uSnt6IYQ6RAQM6cCs/8EbByHjNgoRCmyEOlwFZFehYgKUCM6uBoLg+vw54AG/MWrAZ871SHJshxJxjfxN/1LtJ0ddYoAJ3lS/sMJnV9y99lcP9cMHRkMftZNSJJ+p+c64PEEX8CS/WrH6nVmztx5rHozfwF8OU4flz7zQohJBmZZn0ew2xXM8r6O0IAiRATcRYyPGotVanxqdxerFIVINLiKvfbbmTrWzIEpwD5jdHyuQudXLMbveKJmydF+WIWnR90LKEkSl3LdiBwoWSgWhLAlhBPbR8WDxIsvCDe2jEGs3S74K0/Cz/Yc/FwvIsCTIJ7XMEeVj2jHfCwyv4ZlRt/jM/1s5M2fxaOc7m0xROd6C3Ru55ppXCfDBB3HLNCe4s7/Fo90SuKfiod0WytmTdv7MwAFIcx5dNqQ1uFlSoQb/oYo32CMMIuD8JefgJ9FJkHOwt/hPGbZXsBc82xEG2chfvI57Ji2FVjN4KsYMIHvb2RKU1iIB+joERO8+MIB7Vs9cW+jZxQlSeJyZHDkpHtvRQLGrFQzFsp09q0VTzCREuGGGxfyMUL5p0rE2O+Ev1kaQY7DX3ECgfKTCDXKQKRBBnZOX4cnkXQumsHiGTiRgTcwjXQCXxijc6ccz1Z74EWSN/4V6TGCkiRxYR28UaIVk/Nw9Ex0GrEgTdkm3W5Y9wJxlaMtyhjZbiHYYLMWq602YrXlRnxpvQrFKi8NJAKpuQwYzyJeRoAEPq9hKjeY4vkKBzz7xAf3l/ikitqjNEWo0Vmdeaoq7QVoGe+LDkO2TLcbSrph0QvEkSAiNaJGRMeI1hW1MuNlvfgzaBA1h/cLOCecWGaG9k8s0TbbB8/mBSDVz3sKJQlpLkKEePO6dvSuykFRaCZE+0dsE0OeXCbs4W4Q4YhIjagR0bYCRnQNnYEbgVSsF1EzAsyHYxDnwln14RZoVfngifdMlPkGJjPWG90b73FAaOnQkDFqrZiCikERaBznjxdTPQjiyrQQxFiAvEzNtJcwloSxJozoHOGOgHIglAATclPihZsVmkz90Go+C432ITmMI+sdsw8ANSB02MwJau1oQkSiengwnkzyfgnipkmNpka6XZELZwgkilYAiTYW54kQnXo81QUPxgahaUIYHhjMKYiZ5Dueknqrz4NQD4RWbEHloHlQy8JQOzIQrfreeG7giRcfqjSu9MCIWhFAonCFQ4Rqm+KChtH+qNMNR8OQeagbvqAgYmzABLF2r81q1OehlwaEEeIGa6JaOxrCDbUsFGW6QagZ6Y/6sT549MEMPNL3JJgHHk90x4N3Z+DeSD9U6s5G1eC5qNWZj/pBsbghixY5f0es2Wv9Hv1iopfEC4NTZZG+JVqxOdVaMRCOlOtEoExnDtQ6YRp31DrhmmcBWak9H+J3tQMX4rbWx6kJuqEKrtEn5z9Xv5M/05vUsJVc7Ip2dEKJVlxOzcA41GjFMlisZhTPVQMXtpQOXJhzRSs2YeWQMBF4CNVT7a9Sv5OvkFhsEDWMGtOPRlHiO/Gb/xq4S67SfwBw9v8BlwdHIAAAAABJRU5ErkJggg==" InformativeScreenshot="925c8441c7db4d6ce2029a8cc0b25515.png" Reference="RBBiNa503U-tSzTBd3Olig/qCfVp1AeUUqqKHDt4r8dhg" Selector="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" Url="https://www.bedag.ch/" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

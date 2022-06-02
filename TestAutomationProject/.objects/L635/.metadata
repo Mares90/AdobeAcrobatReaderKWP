@@ -1,0 +1,11 @@
+﻿{
+  "Id": "L635YO99702ueiC4olOP5g",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/L635YO99702ueiC4olOP5g",
+  "Name": "Edge: Internetportal Kanton Bern app",
+  "Type": "App",
+  "Created": "2022-06-02T12:51:06.7152008Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T12:51:06.7152008Z"
+}

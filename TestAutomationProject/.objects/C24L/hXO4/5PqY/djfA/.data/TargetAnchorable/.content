@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.admin.ch/gov/de/start/service/kontakt.html" ContentHash="4ve-3kGfMEui9drJnDdkFQ" DesignTimeRectangle="476, 339, 57, 20" ElementType="ListItem" FriendlyName="'Kontakte'" FullSelectorArgument="&lt;webctrl aria-role='presentation' isleaf='1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' isleaf='1' tag='LI' type='' aaname='Kontakte' check:text='Kontakte' /&gt;" Guid="132c0968-3a61-4bfc-bc52-26a5bf3029c4" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Kontaktformular' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="390, 340, 58, 16" ElementType="Text" FriendlyName="'Startseite'" FullSelectorArgument="&lt;webctrl aaname='Startseite' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Startseite' tag='A' type='' check:text='Startseite' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1P36Tv-vnKE2C63G65vZ6OQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0HP_4J3pAl0y80bjf0uB8ew</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5ae7b0e26fc463c0566f73f8ccbc4f50.png" xmlns="">0quAS5GX8G0m8Y39Hyh5PmQ</imageRef>
+</TargetAnchorable>

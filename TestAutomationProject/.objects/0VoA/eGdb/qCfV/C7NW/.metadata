@@ -1,0 +1,13 @@
+﻿{
+  "Id": "C7NWqAYD7Um3iEPQxVckug",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/C7NWqAYD7Um3iEPQxVckug",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/qCfVp1AeUUqqKHDt4r8dhg",
+  "Name": "Das sind wir",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-06-02T11:48:12.8750157Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T11:48:12.8750157Z"
+}

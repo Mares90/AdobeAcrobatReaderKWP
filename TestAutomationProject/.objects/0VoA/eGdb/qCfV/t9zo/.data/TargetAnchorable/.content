@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.bedag.ch/de/jobs-und-karriere/das-sind-wir/" ContentHash="OfAo6JbL8E2Mxr8X8t10QA" DesignTimeRectangle="144, 654, 792, 446" FriendlyName="'VIDEO video-6eeba3780f4…'" FullSelectorArgument="&lt;webctrl id='video-6eeba3780f45ccfbaf39da2b4369f387' tag='VIDEO' /&gt;" FuzzySelectorArgument="&lt;webctrl id='video-6eeba3780f45ccfbaf39da2b4369f387' tag='VIDEO' type='' aaname='' /&gt;" Guid="ac35200f-5b77-4bd8-8320-8497d3e4b59b" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Das sind wir – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="144, 1124, 792, 42" FriendlyName="'Laura Cabrera'" FullSelectorArgument="&lt;webctrl parentid='list_78bab1fd' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='list_78bab1fd' tag='H2' type='' aaname='Laura Cabrera' check:text='Laura Cabrera' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1ORP5TNKwi02MbrzQMrgt0A</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0ZRKZ_soYA0W4-RXIhgPeqQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="658bf5394197fba453e6a7116e1ffd27.png" xmlns="">0ZvFF1-rmgEKwHd98QscFEg</imageRef>
+</TargetAnchorable>

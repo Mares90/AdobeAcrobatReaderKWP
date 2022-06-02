@@ -1,0 +1,12 @@
+﻿{
+  "Id": "n9L5XqiNYEOHYJKnXQ_9pw",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/n9L5XqiNYEOHYJKnXQ_9pw",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/G-9GunZm5EqSXBRKgKcN-A",
+  "Name": "Firefox: Internetportal Kanton Bern",
+  "Type": "Screen",
+  "Created": "2022-06-02T12:49:03.3441239Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T12:49:03.3441239Z"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.admin.ch/gov/de/start.html" ContentHash="T73JzIZ3MkGWqiimFUa74g" DesignTimeRectangle="1323, 131, 42, 14" ElementType="Text" FriendlyName="'Kontakt'" FullSelectorArgument="&lt;webctrl aaname='Kontakt' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Kontakt' tag='A' type='' check:text='Kontakt' /&gt;" Guid="53ebba74-6b45-4cb9-92b1-f1443a0bbd6b" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Der Bundesrat admin.ch - Startseite' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0oZb1PPJA-UGkGktR7BKRWw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="9e8881132a1e84dc7ff0fd221b199ee7.png" xmlns="">0Y6KDklidbk20_cmN2AxcGQ</imageRef>
+</TargetAnchorable>

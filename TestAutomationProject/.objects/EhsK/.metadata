@@ -1,0 +1,11 @@
+﻿{
+  "Id": "EhsK2LCoEUOwKnHu5V163w",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/EhsK2LCoEUOwKnHu5V163w",
+  "Name": "Firefox: Internetportal Kanton Bern app",
+  "Type": "App",
+  "Created": "2022-06-02T12:49:03.2984333Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T12:49:03.2984333Z"
+}

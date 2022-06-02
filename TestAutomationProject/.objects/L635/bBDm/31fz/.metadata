@@ -1,0 +1,12 @@
+﻿{
+  "Id": "31fz9OadaUaI2YmSlcFZjg",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/31fz9OadaUaI2YmSlcFZjg",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/bBDmJtu1yka5eLcMkHnNdQ",
+  "Name": "Edge: Internetportal Kanton Bern",
+  "Type": "Screen",
+  "Created": "2022-06-02T12:51:06.7545466Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T12:51:06.7545466Z"
+}

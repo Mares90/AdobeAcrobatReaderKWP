@@ -1,0 +1,12 @@
+﻿{
+  "Id": "w43BpZf7M0SeNPHCgPNu9g",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/w43BpZf7M0SeNPHCgPNu9g",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/2LKra4o__U2evnNKYIhaHw",
+  "Name": "Edge: Der Bundesrat admin.ch - Startseite",
+  "Type": "Screen",
+  "Created": "2022-06-02T12:34:30.7778615Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T12:34:30.7778615Z"
+}

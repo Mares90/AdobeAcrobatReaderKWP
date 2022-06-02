@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.bedag.ch/de/medien/downloads/" ContentHash="HpoMsE9wSkq8iAFdBeEwDg" DesignTimeRectangle="120, 498, 1120, 60" ElementType="Text" FriendlyName="'Geschäftsbericht 2021'" FullSelectorArgument="&lt;webctrl parentid='list_2ff08b99' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='list_2ff08b99' tag='SPAN' type='' aaname='Geschäftsbericht 2021' check:text='Geschäftsbericht 2021' /&gt;" Guid="a8f87410-ab92-41c8-ad52-746df9d74109" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Downloads – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1239, 518, 373, 21" ElementType="Text" FriendlyName="'2022'" FullSelectorArgument="&lt;webctrl aaname='2022' parentid='list_2ff08b99' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='2022' parentid='list_2ff08b99' tag='SPAN' type='' check:text='2022' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">15hX1RWHGWEGx2CBGcbnj0A</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <TargetAnchorable.PointOffset>
+    <PointOffset Position="TopLeft" X="43" Y="30" />
+  </TargetAnchorable.PointOffset>
+  <imageRef attrName="ImageBase64" xmlns="">0KNNtYZHv2kmcv6m8HIRXSQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c77467c0f5b8ff61d73cd2c4a6e66076.png" xmlns="">0UkPUtkJJe0Gy_tX5OTWGEw</imageRef>
+</TargetAnchorable>

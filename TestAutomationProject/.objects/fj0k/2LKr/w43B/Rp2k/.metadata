@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Rp2k9JcjvE-ais3voIXrNQ",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/Rp2k9JcjvE-ais3voIXrNQ",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/w43BpZf7M0SeNPHCgPNu9g",
+  "Name": "LogoHeader",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2022-06-02T12:35:21.9960596Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T12:35:21.9960596Z"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.be.ch/de/start.html" ContentHash="9sK_6wEe-0-koF4tnSJvyg" DesignTimeRectangle="1152, 95, 48, 19" ElementType="Text" FriendlyName="'Kontakt'" FullSelectorArgument="&lt;webctrl parentid='Link25722028' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Link25722028' tag='SPAN' type='' aaname='Kontakt' check:text='Kontakt' /&gt;" Guid="5061082f-e9dd-4222-8f28-d629d1d5bd8e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Internetportal Kanton Bern' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1240, 95, 140, 19" ElementType="Text" FriendlyName="'Startseite Kanton Bern'" FullSelectorArgument="&lt;webctrl parentid='Link25722029' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Link25722029' tag='SPAN' type='' aaname='Startseite Kanton Bern' check:text='Startseite Kanton Bern' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1TLnRCkoeo0GJrlZ3EsfuXQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0OnVOQX1fW0GYNlTqWFLY6A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="256df3b0bebdd15785321be34882b113.png" xmlns="">0FOINL5Ie-UiRrNUqa-lIbg</imageRef>
+</TargetAnchorable>

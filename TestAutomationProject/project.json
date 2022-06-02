@@ -1,5 +1,5 @@
 {
-  "name": "TestAutomationProject",
+  "name": "Firefox KWP",
   "description": "Testautomatisierungsprojekt",
   "main": "Main.xaml",
   "dependencies": {
@@ -58,6 +58,46 @@
         "editingStatus": "InProgress",
         "testCaseId": "3724e20b-8d5c-4ff5-b42c-b3c455c7811f",
         "fileName": "F02 Webseiten anzeigen\\S03 Webseite bedag.ch anzeigen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e498a960-5a52-4927-bb91-7335dd8971ee",
+        "fileName": "F03 Links anwählen\\S04 Links anwählen www.bedag.ch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1e822ad1-54e6-4d4c-b690-5d4c37951285",
+        "fileName": "F04 Videos abspielen\\S05 Video öffnen über www.bedag.ch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "df15ab83-d314-4d92-aba4-a51535674d5c",
+        "fileName": "F02 Webseiten anzeigen\\S06 Webseite www.admin.ch anzeigen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c005ba16-6db6-4588-b33e-a1afd5f26870",
+        "fileName": "F03 Links anwählen\\S07 Links anwählen www.admin.ch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e9d7dab2-b4ef-4fe4-802b-511490cab48a",
+        "fileName": "F02 Webseiten anzeigen\\S09 Webseite www.be.ch anzeigen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6ddcc6de-ebd9-4888-97d2-9f01eb63aad0",
+        "fileName": "F03 Links anwählen\\S10 Links anwählen www.be.ch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7e8d2347-54d6-4112-beed-30c88216dea4",
+        "fileName": "F05 PDF Datei öffnen\\S11 PDF Datei öffnen über www.bedag.ch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "11c60f2e-8d5b-45b8-b172-c3694057d641",
+        "fileName": "F01 Grundfunktionen\\S12 Software beenden.xaml"
       }
     ],
     "modernBehavior": true

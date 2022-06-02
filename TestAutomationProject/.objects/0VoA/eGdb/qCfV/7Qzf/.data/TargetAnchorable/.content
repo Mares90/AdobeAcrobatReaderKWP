@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.bedag.ch/" ContentHash="jRl3e4OD5EOUWzfgR-Rqbw" DesignTimeRectangle="983, 452, 165, 47" ElementType="Text" FriendlyName="'Services'" FullSelectorArgument="&lt;webctrl aaname='Services' parentid='navigationMainContentInner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Services' parentid='navigationMainContentInner' tag='SPAN' type='' check:text='Services' /&gt;" Guid="d3c66ee2-39a8-4ca1-8b9f-634c1688ca74" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="983, 538, 274, 47" ElementType="Text" FriendlyName="'Jobs &amp; Karriere'" FullSelectorArgument="&lt;webctrl aaname='Jobs &amp;amp; Karriere' parentid='navigationMainContentInner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Jobs &amp;amp; Karriere' parentid='navigationMainContentInner' tag='SPAN' type='' check:text='Jobs &amp;amp; Karriere' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1rdJ1ycSvtkOFNpOVwjX_oQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0JS88ZiJcb0qx0fHQhVw-zw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="671bb2c27593516112936abbf967fc35.png" xmlns="">0YEosDjMO90y2CsmgJ8gUNQ</imageRef>
+</TargetAnchorable>

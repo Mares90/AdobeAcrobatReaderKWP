@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="k_WJWrrr_UOQqDdAbJN2-g" Selector="&lt;html app='msedge.exe' title='Internetportal Kanton Bern' /&gt;" Url="https://www.be.ch/de/start.html" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0jvuGuG6N50qO-gu7M6J5jw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="87c301b06c7178108e2071320209c1e3.png" xmlns="">0KTNKhKMYHE-Qqjgb5XrUEw</imageRef>
+</TargetApp>

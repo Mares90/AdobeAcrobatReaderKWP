@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.bedag.ch/de/jobs-und-karriere/das-sind-wir/" ContentHash="JnHeyL7M3U6qu8zkPkSC9Q" DesignTimeRectangle="808, 915, 64, 32" ElementType="Text" FriendlyName="'-0:00'" FullSelectorArgument="&lt;webctrl id='time-display-6eeba3780f45ccfbaf39da2b4369f387' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='time-display-6eeba3780f45ccfbaf39da2b4369f387' tag='DIV' type='' aaname='-0:00' check:text='-0:00' /&gt;" Guid="1caf75ab-fff1-43f7-b33e-a6c78c24db0d" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Das sind wir – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="180, 915, 624, 32" ElementType="InputBox" FriendlyName="'100'" FullSelectorArgument="&lt;webctrl id='seek-bar-6eeba3780f45ccfbaf39da2b4369f387' tag='INPUT' type='range' /&gt;" FuzzySelectorArgument="&lt;webctrl id='seek-bar-6eeba3780f45ccfbaf39da2b4369f387' tag='INPUT' type='range' aaname='' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1c-HV6aYz7US1pyHJuwlcRg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0myY_7HzpdEOnBBdc02XaKA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2ea55efd9bdff3162420b78e9d870fe2.png" xmlns="">0J2G8IkQBuEiCS6xmQ4W9-g</imageRef>
+</TargetAnchorable>

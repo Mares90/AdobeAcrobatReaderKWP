@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.admin.ch/gov/de/start.html" ContentHash="WQf3tNU0R0q74kcEt4frhg" DesignTimeRectangle="390, 150, 254, 56" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' aaname='Logo Schweizerische Eidgenosschaft - zur Startseite' /&gt;" Guid="e43e50d1-ba4c-49ed-a5c7-d50ec16b0417" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Der Bundesrat admin.ch - Startseite' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0qNMQLDFgF0iKqIaJ5iYUYg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="38322e73d9c130dec38d4ba5dfa177c5.png" xmlns="">07LN6E9cg40y7ugj9ViOXPA</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="N2RBIQX3xkSgPvr2IAnwXw" Selector="&lt;html app='msedge.exe' title='Der Bundesrat admin.ch - Startseite' /&gt;" Url="https://www.admin.ch/gov/de/start.html" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0mcs_MvCgk0S1vCtLu4ZJJQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b669f37941701d0f63c36ea00fda51b9.png" xmlns="">0lBTEmJPyzUqib5hDgsxYAw</imageRef>
+</TargetApp>

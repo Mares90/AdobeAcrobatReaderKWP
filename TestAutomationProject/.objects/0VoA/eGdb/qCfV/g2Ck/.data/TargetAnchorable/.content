@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.bedag.ch/" ContentHash="LX9YXkYHN0WiMvKvm8qQlQ" DesignTimeRectangle="983, 538, 333, 47" ElementType="Text" FriendlyName="'Workplace Services'" FullSelectorArgument="&lt;webctrl aaname='Workplace Services' parentid='navigationMainContentInner' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Workplace Services' parentid='navigationMainContentInner' tag='A' type='' check:text='Workplace Services' /&gt;" Guid="a66455c2-35d3-4cbc-906c-9f93e569d7cd" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="983, 452, 354, 47" ElementType="Text" FriendlyName="'Data Center Services'" FullSelectorArgument="&lt;webctrl aaname='Data Center Services' parentid='navigationMainContentInner' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Data Center Services' parentid='navigationMainContentInner' tag='A' type='' check:text='Data Center Services' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">6G6WFpe6U8Eas0Ksorq57Ag</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">05XrqIU1YX0G1jCnSVuLiBA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c9ca0f0e1b04f485a619e89a46a2e9b1.png" xmlns="">0YBExoQLI30y_VSxCrEzObw</imageRef>
+</TargetAnchorable>

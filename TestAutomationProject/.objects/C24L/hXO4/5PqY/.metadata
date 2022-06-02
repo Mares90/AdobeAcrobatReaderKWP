@@ -1,0 +1,15 @@
+﻿{
+  "Id": "5PqY7rEZnE2V6wpHlgDpnA",
+  "Reference": "RBBiNa503U-tSzTBd3Olig/5PqY7rEZnE2V6wpHlgDpnA",
+  "ParentRef": "RBBiNa503U-tSzTBd3Olig/hXO4BQoN_U2gSaYz-_Un8w",
+  "Name": "Firefox: Der Bundesrat admin.ch - Startseite",
+  "Type": "Screen",
+  "Created": "2022-06-02T12:24:29.9107866Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-02T12:26:43.9067752Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
