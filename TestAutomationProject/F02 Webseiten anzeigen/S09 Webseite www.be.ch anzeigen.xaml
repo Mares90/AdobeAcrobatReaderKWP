@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="S03_Webseite_bedag_ch_anzeigen" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,1454" sap2010:WorkflowViewState.IdRef="S03_Webseite_bedag_ch_anzeigen_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="S03_Webseite_bedag_ch_anzeigen" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,908" sap2010:WorkflowViewState.IdRef="S03_Webseite_bedag_ch_anzeigen_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="60">
       <x:String>System.Activities</x:String>
@@ -62,9 +62,14 @@
       <AssemblyReference>System.ComponentModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
       <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="S03_Webseite_bedag_ch_anzeigen" sap:VirtualizedContainerService.HintSize="618,1389" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="S03_Webseite_bedag_ch_anzeigen" sap:VirtualizedContainerService.HintSize="618,843" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Verifikation" />
       <Variable x:TypeArguments="x:String" Name="VerifikationEdge" />
@@ -74,25 +79,25 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,1104" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,558" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: Internetportal Kanton Bern" sap:VirtualizedContainerService.HintSize="510,1012" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: Internetportal Kanton Bern" sap:VirtualizedContainerService.HintSize="434,466" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="476,756" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="376,250" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NGetText DisplayName="Get Text 'Kontakt'" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
+              <uix:NGetText DisplayName="Get Text 'Kontakt'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.be.ch/de/start.html" ContentHash="os_pyU8C80WgJ1hRU-P2Zg" DesignTimeRectangle="1152, 109, 48, 19" ElementType="Text" FriendlyName="'Kontakt'" FullSelectorArgument="&lt;webctrl parentid='Link1732190655' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Link1732190655' tag='SPAN' type='' aaname='Kontakt' check:text='Kontakt' /&gt;" Guid="6bece391-b5e2-453a-a64a-20c7ca48e572" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAXCAYAAABEQGxzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKsSURBVFhH7ZQxaNtAFIYPDjRUEA2hYJdCiaAIshlD6SKapV60OKV4yGIKwYVsXrQEOhpD8ZRCyeChKEO9mEKWDoWQJQQERVAKpUOocRZ7sCYPN/29O51iWXYdx4XWGP+g4e6d3r3vvXePYMW0Blp2rYGWXWugf6rAhUkceGo5j8aAAtcEMV0Eai3EfBcWNeA0u2Bqb2HJAE24yQtmaSZQANckMFPOZgP1PDgGheX6fw8j9F+BmA/X0rBZ9NCT1kis28JBPgONEBAtg/xBe2SXARRQb5Xx+B4FIRoyz2rweTakb/GP+uJA2I8mXm5vKH8b2C6n/Y2Aep4Dg1qofqjy/ZGvZBGmA0kYCsMZhwE7QyVL8XDvBFdDYHh1zCtIkK2cRRWUARAYOw18DYcIf75DQSfI1Try98ierNBnlEUHVM8Rcges25QdsfN+EJkTQDet78URzV2hV3Adg5PnUe8qgxLjGaJ6Ce1E/7F2CTrll4o9GYCNIxWPkOcQ0OLHaJEGYiGuf11LmFiT57nvqa0/LxARP16gvWdMVEja7SMk4gU6NeTiIBMZjSUCJNyPVBqIa/jteNRy8Td2/ilsm7fvg9c4T4Bz45xAj6rwxUK1VzIrU4G+H8JaFGjAM6+LlvuCPm9hocnzos0uUMtpC1Yo8cCYLx6fiap41WI9V8vdAWjiPEOzkD6v7AFPnGbBVbHwjbsDiQt81wI1uFPRe3HVKp/UUDhBKZseCjOAWBMFomO3FSLkQwOdt3hCddj1S/T7fVw2nmOT/gFIxFIV8fEOkpdF8Ppui/sKoQp8G5BQgEM+8ajdQJc7EmO7fDNmxdhuyf3o6C1AvFlP97fkv/HD77WTI97Fmxf3R22d9icTOkrg4HQfWxr3T4tQY2QcaBW0Blp2rYGWXSsGBPwG7Z2wnG9/E/QAAAAASUVORK5CYII=" InformativeScreenshot="c4e0dd9c6d6e8c0927c3b666c07dc5aa.png" Reference="RBBiNa503U-tSzTBd3Olig/T-ASqgmvE0KxodM8nYTlzA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Internetportal Kanton Bern' /&gt;" SearchSteps="FuzzySelector, Image">
                     <uix:TargetAnchorable.Anchors>
@@ -106,39 +111,6 @@
                   <OutArgument x:TypeArguments="x:String">[Verifikation]</OutArgument>
                 </uix:NGetText.Text>
               </uix:NGetText>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Internetportal Kanton Bern" sap:VirtualizedContainerService.HintSize="434,466" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="bef446c6-e855-4e8d-8856-5458270d35fd" Version="V1">
-                <uix:NApplicationCard.Body>
-                  <ActivityAction x:TypeArguments="x:Object">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                    </ActivityAction.Argument>
-                    <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,250" sap2010:WorkflowViewState.IdRef="Sequence_6">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <uix:NGetText DisplayName="Get Text 'Kontakt'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="bef446c6-e855-4e8d-8856-5458270d35fd" Version="V1">
-                        <uix:NGetText.Target>
-                          <uix:TargetAnchorable BrowserURL="https://www.be.ch/de/start.html" ContentHash="9sK_6wEe-0-koF4tnSJvyg" DesignTimeRectangle="1152, 95, 48, 19" ElementType="Text" FriendlyName="'Kontakt'" FullSelectorArgument="&lt;webctrl parentid='Link25722028' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Link25722028' tag='SPAN' type='' aaname='Kontakt' check:text='Kontakt' /&gt;" Guid="5061082f-e9dd-4222-8f28-d629d1d5bd8e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAXCAYAAABEQGxzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIzSURBVFhH7ZQtc4QwEIbzLyKRlcjIk5FIZCUSyU9AIpHIyJPIk0hkJRKJjHy7CQmQu+v1ehVlOrwzzJCv3X2ym2X4ZzqA9q4DaO/aNdCoErCyc6PnFABZA4nC6MZWg0LKBcpuchO/0KiQsAQqcPC1HgONUAlDcmXsMZDuUAqOVA1u4pf6W6ABKo1wIoPajp2mHk0mETEGFklkTb+u24ALtH2N9I2DsQgyb8mSs23OuG8JZOpQvQtnT+C9Xu2FQBpdKcBThcH6WW1tk/AFkIHhENcwNN9IDll1sAU4XSiDDLJxGXSORNFipIOa1ouYIWtdud5k6AO1qwDrh+BMRRSX2esWaFApuCjRLQE9naEaim6CsQw+jkVdCR5X6N3Qqq8Qc3Jk/m3AOVw8Vl3JwEt34gZIY5qm4NK2+z2QJr+Cpwgr/1kgNt9YX4mbDNn1/BJmbWqR+SBtwA7OyQS4lM0NEGm8rCXnP7ff+sty5HxTBYt+8Ibmo3N5bRvCXaDxjPRVINN0YuPjY7G53W/9mTIb6NKiVzO07XLUsm0A3tBTJfcDoHv7iysg/39OEZmGYEdGrwCRwsfoskadbW4K1KHkdVN4AEQrBYtR9hra2DPlymPkLTUFmhjaAicqr3tAxvcMsCIZ+Jjemznr9S2QuYkzdTxO7XeG6FEvbXZu20vv+BZIo68Te9Y/fB20eIVzdVrKOgQiDQ0kk/D3Z84mEdmnCvFVEwD9Bx1Ae9cBtHcdQPsW8AnpFBZ01tpX3wAAAABJRU5ErkJggg==" InformativeScreenshot="256df3b0bebdd15785321be34882b113.png" Reference="RBBiNa503U-tSzTBd3Olig/lo2vwgZ-w0ymmTPH9BgPxw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Internetportal Kanton Bern' /&gt;" SearchSteps="FuzzySelector, Image">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target DesignTimeRectangle="1240, 95, 140, 19" ElementType="Text" FriendlyName="'Kontakt'" FullSelectorArgument="&lt;webctrl parentid='Link25722029' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Link25722029' tag='SPAN' type='' aaname='Startseite Kanton Bern' check:text='Startseite Kanton Bern' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJAAAAAXCAYAAADk88bYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWZSURBVGhD7Vgrk7Q6EOVfIEeOHIkciUQiRyKR/ATkSCQSiblVSORIJBKJRCL7nk4CJIHd2V32u4+qnCqmKjB0+nFy0sEjB4cTcARyOAVHIIdTcARyOAVHIIdT+J8TaKK+7fHr8G/BJNDcU5WGdPU98jyfrmFCZaeV55Xjfk4vNfwRxooiL6JqVOMzGGt6+AEVvRy+cvid/9C7o9jmF+WBT3E1qBtnMFIVeRT9SuB7jFUE/7lu6vKvdH886fWHV5dGoJHq2Kcga2iYZoxnGruSYhQo73gM/NcIZOF3CTRQxfmAPRX9SfwDBIoqzCIxTwM16Y28R/1HFXojEFZzzIW1Flv3hBPZSxZHY/hSp7mvKA2v5OOefw0pbTYDIqisovrBz3P6y1olazKHxrRRm04MbU7x1cc7UMW4oFUUVzJCKTS7BhHmjsokpAvfv+xtrzAINGMY0AXJN/890ev5oODCc1woeMCXlV3sQ0RlWyOWC54rX/m58FPzby00ipzHUvGhGHHeavN9Yu8ANoEEDhZFq89XdCu57FrxO1zzqGypxq7E+fOvMRWWA5oCdfS84QXsBx8y1nZoaihhhWrVG0MFxQqpVFmQshpQVvc0ClUTNy0F6qlQ2wT/YxY2bvTs5NP5ldEtyElOMVFXaImybO0VCCoSabZHEPV2A/kPqrDGJsnjx5VFHnhaqPvidZCJ/5e1SqEkif24lARHO1BCcW5LIDsFmqlNoXAJSCoDF4rnp1+1Z2JHoHkUChTknbKHuDIet7K+U0eF5s9RrUQ+/Vi1MTP1Jf5ze4IpG4weSKjJHSsdKzXJSmp6MdWGHaNnmhZiCMgkxbXm1JoQhR2BOFH3tY9hm2PXUjfyW9Je2moW5pZSLyYxxTsCwV//XhpEGMo7+UjqDiK2jKoqxgrc+iod8zSRES6/4+cqoTKOZfEwRPxxrYpqEUj4/qBaT/GEnm6N5509E5IAiF+/woL6xV8xX0pmKtPV3lGtOJ930wHYULlXMJtoAS5gTWUqpe4SabK5IxBi1rawxXGD1XZPsiPQLFTlwpKaFlQZpyq5Co2kiEu9/4ZAh0nly/aJIWLzRM8zNAldDhQIFqldt7DlWvLBvupxqflXVbAIxPNZ5F52AeneO3smds9mqdb+QjgV3+5S7xzVivO5KSawq90hgXQMpmzaBBIG5RYmOWYm6cipIycEpp5edUlpDDIGCTXiOSdx2852+AqBkubjLVmHiC1TsantBba2Fclb201sYeuqNvLxOwTKsWh/hUAMbjEWFeP5rO1Hx1GtvkUgIWcHEwxs2GCxRiAeG05zz/FNAoE4raE6Exq5xQYIHHoU6jKq4w2B5jYj388M2f4Qdmw4wmfol7K1X5IEMMJBf/ZjAgnf321hn9kz8ZZAQ0mht/WnNk4TiE8r/M0j5JOAOsZPXUUJN7jLpocGVwSN/mTmv/QFBTBYoMmaWTLLh+jWPyUQEpNBVfjTgLChGvFMSg7GLQrnU9LIzE7YTnxu5FQ/NvGnhRBE53etgATZcXIaYViWHVtCgG0pa2RiubHM7vQwqqZgEwiYcS/A3PJkOlGT+HRLGzS9sI+TY8b94pcJhH9kUHNuakXgSuXYNzEcqE6gcEYTfYJAsNdkAXnBIgrSf27KZSq5XjGFkHeZyn2tvr+FQQ3qfNvjL0FEadWrgBjc2aMJxbOFVEOTUsj/5x7m2eDIvDVexwRSPQ9sLM2s/ilANPDlcnKQGGrMIY7x8ClMqVr2EDsgPmWJomqNHp82HjiSs23h40tTOw0HBBK+4qQlmlExhC3eYhc/6ifd18b0fcHnrqBI5GppvEGa5cOtOMaDnOI+4wcE4hjXiz8z2B8StfnwPEy37fh3COTg8E04AjmcgiOQwyk4AjmcgiOQwyk4AjmcgiOQwwkQ/Q0Ft1MtV+cTTQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
-                              </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                          </uix:TargetAnchorable>
-                        </uix:NGetText.Target>
-                        <uix:NGetText.Text>
-                          <OutArgument x:TypeArguments="x:String">[VerifikationEdge]</OutArgument>
-                        </uix:NGetText.Text>
-                      </uix:NGetText>
-                    </Sequence>
-                  </ActivityAction>
-                </uix:NApplicationCard.Body>
-                <uix:NApplicationCard.TargetApp>
-                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="k_WJWrrr_UOQqDdAbJN2-g" IconBase64="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" InformativeScreenshot="87c301b06c7178108e2071320209c1e3.png" Reference="RBBiNa503U-tSzTBd3Olig/31fz9OadaUaI2YmSlcFZjg" Selector="&lt;html app='msedge.exe' title='Internetportal Kanton Bern' /&gt;" Url="https://www.be.ch/de/start.html" />
-                </uix:NApplicationCard.TargetApp>
-              </uix:NApplicationCard>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
@@ -153,12 +125,12 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
           <InArgument x:TypeArguments="x:String">[Verifikation]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[VerifikationEdge]</InArgument>
+          <InArgument x:TypeArguments="x:String">["Kontakt"]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
     </Sequence>

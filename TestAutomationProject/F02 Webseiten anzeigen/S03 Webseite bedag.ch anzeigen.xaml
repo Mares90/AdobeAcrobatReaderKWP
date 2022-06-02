@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="S03_Webseite_bedag_ch_anzeigen" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,1513" sap2010:WorkflowViewState.IdRef="S03_Webseite_bedag_ch_anzeigen_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="S03_Webseite_bedag_ch_anzeigen" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,908" sap2010:WorkflowViewState.IdRef="S03_Webseite_bedag_ch_anzeigen_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="60">
       <x:String>System.Activities</x:String>
@@ -64,7 +64,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="S03_Webseite_bedag_ch_anzeigen" sap:VirtualizedContainerService.HintSize="618,1448" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="S03_Webseite_bedag_ch_anzeigen" sap:VirtualizedContainerService.HintSize="618,843" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Verifikation" />
       <Variable x:TypeArguments="x:String" Name="VerifikationEdge" />
@@ -74,25 +74,25 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,1062" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,558" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="510,970" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="434,466" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="476,754" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="376,250" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NGetText DisplayName="Get Text 'Menu'" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
+              <uix:NGetText DisplayName="Get Text 'Menu'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="b7228793-c1d3-4e56-87a5-ab91580ace64" Version="V1">
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.bedag.ch/" ContentHash="98bsIfFzo0GI6YfEggNZug" DesignTimeRectangle="1170, 128, 38, 15" ElementType="Text" FriendlyName="'Menu'" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' aaname='Menu' check:text='Menu' /&gt;" Guid="efc2e6b8-31c1-486d-b853-ed10fa8ca289" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAATCAYAAADmtp8+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHbSURBVEhLY3jw6cr/oYBHHUptjOHQlOiy/0ZyAf+djGJQxEH49I0jYDkQnr9kMYY8LTFWh5ooBIEds/3gVhS53p6p/600wgePQz2sEsG4vKgFRc7fMe1/XkYthkNvv7n4PzOpCu5BX/vU/2duHYXLg8wE4cLsBrAaE8Wg/0XZjXB5EEY3c//J3WAxEA3i43RoZ8ek/w56UXDx41cOgjVu3bsZw9D0uIr/oZ7Z/w+d2/v/1PUjYL6tdgTYAzAzQQ5srOsBy8+cMw/DDLIdCnPYlj2bweLIDkc2FJZu9xzbCTcD5ECQ2OpNa8B8kJmg2IDJg7C7eQLQ4b1wPrKZIEy0Q0FskOG56bVwdlVZG5iNbOiSFcvAfGwYpgZkJgiD2DDsaZVEPYeCMo+lehhcEyxzIRsKc+i6revA0YqMb748BzeTpg698vg0WHGQWyZcDISRDYVFPSyJwPQ56Ef/X7VxNZhPrENbmvrh/BVrVxLvUBCO8s8DawBlBJgYskNhanxsU+CZKTaoECMzEXIoLDBAZoCwu0UCaQ6dMQuSQ0GZCyaG7lBQFMcE5MOLpxCPLKzFE4wPwugOPXJx/39n41iwfifDmP9z5i/E79DBikcdSm086lBq4yHi0Cv/AXJWSpa87Zt8AAAAAElFTkSuQmCC" InformativeScreenshot="e585b001d985901295bdc1e14a4ec0d2.png" Reference="RBBiNa503U-tSzTBd3Olig/3AkdM0v6pkO5048C6QZS_A" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" />
                 </uix:NGetText.Target>
@@ -100,33 +100,6 @@
                   <OutArgument x:TypeArguments="x:String">[Verifikation]</OutArgument>
                 </uix:NGetText.Text>
               </uix:NGetText>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Startseite – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="434,465" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="bef446c6-e855-4e8d-8856-5458270d35fd" Version="V1">
-                <uix:NApplicationCard.Body>
-                  <ActivityAction x:TypeArguments="x:Object">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                    </ActivityAction.Argument>
-                    <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,249" sap2010:WorkflowViewState.IdRef="Sequence_6">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <uix:NGetText DisplayName="Get Text 'Menu'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="bef446c6-e855-4e8d-8856-5458270d35fd" Version="V1">
-                        <uix:NGetText.Target>
-                          <uix:TargetAnchorable BrowserURL="https://www.bedag.ch/" ContentHash="PUhoFbN-QkiULCcAS0ENCQ" DesignTimeRectangle="1733, 120, 43, 17" ElementType="Text" FriendlyName="'Menu'" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' aaname='Menu' check:text='Menu' /&gt;" Guid="15a3b3bc-6d4c-4589-91cc-ccda77208057" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAVCAYAAADWxrdnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJrSURBVFhH7ZXvS5NRFMf7S3of9CJ6WwgSESGaJpnGojDNYo2QWURhgWjlRCdlpbZNByazlc+mLCsp0yxx+QN1WolWVET4ol//wDe+B+712aOQQ3Eae/Hl4dx77rmfe55zz93y6U8Mm1X/D7yr+iZ2bs1GQZYD0beDcY7Uize9yNh9Qnz899qWzK+3lsCn77Bh17Y83A8H4xypJo9PwDcsvKOkXFRZ4cb8z0k9N/NtFKX2K3AUlyNnT8nGhL/grEKztwVHc0sxNvdazw2MPRNoZv/g3lNx8B9/T6H7aRjH8pzyV/IzziDwsAMffi0evqc/InPGIwPV128gbXsBMtOKJN7cjwntpxjeL4zHreWegxN9eoxaFr5vuFecQ48NPUfYwiPndCAzvNETkrvgbW3FyOwr+Px+HEg/ibZAu/ZR8McPO9EeDEhi7jR6pEy7noS136rhJz9H5Xvtar2UDgPRrnE1SAAz/Lvvo3A6KtDY7JM/wDF++ffsRZcw/XVExhQ8x5Uf5+jDfWlTq4bnQk+LX7I0Pj+E4ekB6UAMYoUfmurHof12RJ536ziUdUMFz6/yUUlZc3hV41zI+lUHscIrm2BWJQ1elUNVpRuXL7p0CVnhVeaNSKeUm1mxL1F9GdcVnjZLhxfKfKms8Kpula3EMmLLjc68FHul8LW1t1BsOy8Hp837wfuUMLx6Uc1t0wpPdYSCyN13WsqLfjxoYX4Z6ty3E8481zJZ7ESMxc7Ekk0YXj1M5gdrOXj282DXA9iyzwog+3zTXa+OQ60Unodli+V941vAN4Fvwz/hN5tS8MlSCj5ZSsEnRzH8BeQe+kPmaRFRAAAAAElFTkSuQmCC" InformativeScreenshot="4d1b6fdcccf1e1a7725844c74a150e1e.png" Reference="RBBiNa503U-tSzTBd3Olig/tFwaqbUQlU-uHjLW0Lmp6A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Startseite – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" />
-                        </uix:NGetText.Target>
-                        <uix:NGetText.Text>
-                          <OutArgument x:TypeArguments="x:String">[VerifikationEdge]</OutArgument>
-                        </uix:NGetText.Text>
-                      </uix:NGetText>
-                    </Sequence>
-                  </ActivityAction>
-                </uix:NApplicationCard.Body>
-                <uix:NApplicationCard.TargetApp>
-                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="3pfySr6L902ESbl9PNYTHA" IconBase64="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" InformativeScreenshot="af887a21e3ff89450071cc9a11c29af3.png" Reference="RBBiNa503U-tSzTBd3Olig/2sKPxILUMUOhuOiRzd4XxA" Selector="&lt;html app='msedge.exe' title='Startseite – Bedag Informatik AG' /&gt;" Url="https://www.bedag.ch/" />
-                </uix:NApplicationCard.TargetApp>
-              </uix:NApplicationCard>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
@@ -135,7 +108,7 @@
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="576,254" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="576,153" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -147,14 +120,6 @@
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
           <InArgument x:TypeArguments="x:String">["Menu"]</InArgument>
-        </uta:VerifyExpressionWithOperator.SecondExpression>
-      </uta:VerifyExpressionWithOperator>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
-        <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:String">[Verifikation]</InArgument>
-        </uta:VerifyExpressionWithOperator.FirstExpression>
-        <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[VerifikationEdge]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
     </Sequence>
