@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="S02_Version_prüfen_Firefox" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,1104" sap2010:WorkflowViewState.IdRef="S02_Version_prüfen_Firefox_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="S02_Version_prüfen_Firefox" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,2219" sap2010:WorkflowViewState.IdRef="S02_Version_prüfen_Firefox_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="58">
       <x:String>System.Activities</x:String>
@@ -69,7 +69,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="S02_Version_prüfen_Firefox" sap:VirtualizedContainerService.HintSize="864,1958" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="S02_Version_prüfen_Firefox" sap:VirtualizedContainerService.HintSize="864,2154" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Version" />
     </Sequence.Variables>
@@ -78,32 +78,40 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="822,1673" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="822,1869" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Schließen'" sap:VirtualizedContainerService.HintSize="780,1581" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V1">
+      <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Schließen'" sap:VirtualizedContainerService.HintSize="780,1777" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V1">
         <uix:NCheckState.IfExists>
-          <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="476,1365" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="476,1561" sap2010:WorkflowViewState.IdRef="Sequence_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Private: Firefox: Startseite - Intranet des Kantons Bern" sap:VirtualizedContainerService.HintSize="434,1272" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Private: Firefox: Startseite - Intranet des Kantons Bern" sap:VirtualizedContainerService.HintSize="434,1467" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,1056" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,1211" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Delay DisplayName=" Delay 10 seconds" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                    </Sequence>
                     <uix:NClick ClickType="Single" DisplayName="Click 'Menubtn'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93897ebc-84ba-4a9d-b1bf-a7bc3cee48a4" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable ContentHash="jSV2q0dtcEuAVCDpw3Rz9A" DesignTimeRectangle="1248, 44, 42, 40" FriendlyName="'Menubtn'" FullSelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' check:fulltext='Firefox' /&gt;" Guid="c4940ad0-ec40-4053-887e-96c19e191fb9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAsCAYAAAAacYo8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVGhD7dIxCoNAFEXRrCBbyB4ss4BswlandaPTWKQSsoYJVmLxYgikshgUHny4xek+n1u8SylFkdyah673pLjhy7IqEsLdCHcj3I1wN8LdCHcj3O10eNcNattUpe+H3R9HnA6fppfG8Vnle7v34wg27sbGa7DxDRuvwcY3bNyNcDfC3Qh3I9yNcDfC3eKH55wVyT/8Pc+K5Bee9AHcXsQGPYiJLQAAAABJRU5ErkJggg==" InformativeScreenshot="b4e17591b098fc7d2ec9b1cbee5fc8e7.png" Reference="RBBiNa503U-tSzTBd3Olig/NRQ-G1eg3EmryIx0sKcIFQ" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
@@ -164,7 +172,7 @@
         <uix:NCheckState.Target>
           <uix:TargetAnchorable DesignTimeRectangle="1248, 44, 42, 40" FriendlyName="'Firefox'" FullSelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='nav-bar' name='Navigation' role='Symbolleiste' /&gt;&lt;uia automationid='PanelUI-menu-button' name='Firefox' role='Schaltfläche' check:fulltext='Firefox' /&gt;" Guid="9aef21c8-fe85-47e3-823d-34f7dc8081e3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAsCAYAAAAacYo8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVGhD7dIxCoNAFEXRrCBbyB4ss4BswlandaPTWKQSsoYJVmLxYgikshgUHny4xek+n1u8SylFkdyah673pLjhy7IqEsLdCHcj3I1wN8LdCHcj3O10eNcNattUpe+H3R9HnA6fppfG8Vnle7v34wg27sbGa7DxDRuvwcY3bNyNcDfC3Qh3I9yNcDfC3eKH55wVyT/8Pc+K5Bee9AHcXsQGPYiJLQAAAABJRU5ErkJggg==" InformativeScreenshot="ab889abbad0e08de781755c65099114d.png" ScopeSelectorArgument="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Startseite - Intranet des Kantons Bern - Mozilla Firefox' /&gt;" SearchSteps="Selector, FuzzySelector">
             <uix:TargetAnchorable.Anchors>
-              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                 <uix:Target DesignTimeRectangle="1244, 0, 46, 43" FriendlyName="'Schließen'" FullSelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' /&gt;" FuzzySelectorArgument="&lt;uia automationid='TabsToolbar' name='Browser-Tabs' role='Symbolleiste' /&gt;&lt;uia name='Schließen' role='Schaltfläche' automationid='' check:fulltext='Schließen' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAtCAYAAADsvzj/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADMSURBVGhD7dO9CsIwFMVxn0BdM/kOjn7j4KNUWz8Q8cGzFoeUEJAMpUbIDaeXM/yX0uH8aO/EWuvG3GJ5cvPj2+mAHF46ILP9Uwlk99ACuSuBbG9KIJurFkijAzJd14TAFCAXJZDVmRCYAqQiBCZCfmWM6X0el/JOaqJfZGhoToRP/NfqG5wb4StyI/FwCYSv2LF7gBTCR8g/xQApDI89paHBuTFikJShOTHFjl06QtAiBC1C0CIELULQIgQtQtAiBK0vpG0/bswFSOU6F/KKv4YboL8AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector" />
               </scg:List>
             </uix:TargetAnchorable.Anchors>

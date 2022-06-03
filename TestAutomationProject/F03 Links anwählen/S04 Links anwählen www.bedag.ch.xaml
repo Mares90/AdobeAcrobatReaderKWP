@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="S04_Links_anwählen_www_bedag_ch" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,1945" sap2010:WorkflowViewState.IdRef="S04_Links_anwählen_www_bedag_ch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="S04_Links_anwählen_www_bedag_ch" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,2140" sap2010:WorkflowViewState.IdRef="S04_Links_anwählen_www_bedag_ch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="58">
       <x:String>System.Activities</x:String>
@@ -64,7 +64,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="S04_Links_anwählen_www_bedag_ch" sap:VirtualizedContainerService.HintSize="618,1880" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="S04_Links_anwählen_www_bedag_ch" sap:VirtualizedContainerService.HintSize="618,2075" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="URLLink" />
     </Sequence.Variables>
@@ -73,13 +73,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,323" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,363" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="434,231" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a841d643-457c-4e79-9257-81b508014b7f" Version="V1">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="434,271" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a841d643-457c-4e79-9257-81b508014b7f" Version="V1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -92,24 +92,32 @@
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="576,1232" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="576,1387" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="434,1140" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="aa68757d-d0d5-4dd2-bd49-796d8f34efd0" Version="V1">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: – Bedag Informatik AG" sap:VirtualizedContainerService.HintSize="434,1295" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="aa68757d-d0d5-4dd2-bd49-796d8f34efd0" Version="V1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,924" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,1079" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Delay DisplayName=" Delay 10 seconds" Duration="00:00:10" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
+              </Sequence>
               <uix:NClick ClickType="Single" DisplayName="Click 'Menu'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aa68757d-d0d5-4dd2-bd49-796d8f34efd0" Version="V1">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.bedag.ch/" ContentHash="98bsIfFzo0GI6YfEggNZug" DesignTimeRectangle="1170, 128, 38, 15" ElementType="Text" FriendlyName="'Menu'" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' aaname='Menu' check:text='Menu' /&gt;" Guid="efc2e6b8-31c1-486d-b853-ed10fa8ca289" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAATCAYAAADmtp8+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHbSURBVEhLY3jw6cr/oYBHHUptjOHQlOiy/0ZyAf+djGJQxEH49I0jYDkQnr9kMYY8LTFWh5ooBIEds/3gVhS53p6p/600wgePQz2sEsG4vKgFRc7fMe1/XkYthkNvv7n4PzOpCu5BX/vU/2duHYXLg8wE4cLsBrAaE8Wg/0XZjXB5EEY3c//J3WAxEA3i43RoZ8ek/w56UXDx41cOgjVu3bsZw9D0uIr/oZ7Z/w+d2/v/1PUjYL6tdgTYAzAzQQ5srOsBy8+cMw/DDLIdCnPYlj2bweLIDkc2FJZu9xzbCTcD5ECQ2OpNa8B8kJmg2IDJg7C7eQLQ4b1wPrKZIEy0Q0FskOG56bVwdlVZG5iNbOiSFcvAfGwYpgZkJgiD2DDsaZVEPYeCMo+lehhcEyxzIRsKc+i6revA0YqMb748BzeTpg698vg0WHGQWyZcDISRDYVFPSyJwPQ56Ef/X7VxNZhPrENbmvrh/BVrVxLvUBCO8s8DawBlBJgYskNhanxsU+CZKTaoECMzEXIoLDBAZoCwu0UCaQ6dMQuSQ0GZCyaG7lBQFMcE5MOLpxCPLKzFE4wPwugOPXJx/39n41iwfifDmP9z5i/E79DBikcdSm086lBq4yHi0Cv/AXJWSpa87Zt8AAAAAElFTkSuQmCC" InformativeScreenshot="e585b001d985901295bdc1e14a4ec0d2.png" Reference="RBBiNa503U-tSzTBd3Olig/3AkdM0v6pkO5048C6QZS_A" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" SearchSteps="FuzzySelector, Image" />

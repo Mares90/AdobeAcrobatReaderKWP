@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="S04_Links_anwählen_www_bedag_ch" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,1553" sap2010:WorkflowViewState.IdRef="S04_Links_anwählen_www_bedag_ch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="S04_Links_anwählen_www_bedag_ch" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1182,1788" sap2010:WorkflowViewState.IdRef="S04_Links_anwählen_www_bedag_ch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="58">
       <x:String>System.Activities</x:String>
@@ -69,7 +69,7 @@
       <AssemblyReference>System.Security.Permissions</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="S04_Links_anwählen_www_bedag_ch" sap:VirtualizedContainerService.HintSize="618,1488" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="S04_Links_anwählen_www_bedag_ch" sap:VirtualizedContainerService.HintSize="618,1723" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="URLLink" />
     </Sequence.Variables>
@@ -78,13 +78,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,323" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="576,363" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Firefox: Der Bundesrat admin.ch - Startseite" sap:VirtualizedContainerService.HintSize="434,231" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a841d643-457c-4e79-9257-81b508014b7f" Version="V1">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Firefox: Der Bundesrat admin.ch - Startseite" sap:VirtualizedContainerService.HintSize="434,271" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a841d643-457c-4e79-9257-81b508014b7f" Version="V1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -97,24 +97,32 @@
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="576,840" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="576,1035" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: Der Bundesrat admin.ch - Startseite" sap:VirtualizedContainerService.HintSize="434,748" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="aa68757d-d0d5-4dd2-bd49-796d8f34efd0" Version="V1">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox: Der Bundesrat admin.ch - Startseite" sap:VirtualizedContainerService.HintSize="434,943" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="aa68757d-d0d5-4dd2-bd49-796d8f34efd0" Version="V1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,532" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="376,687" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Delay DisplayName=" Delay 10 seconds" Duration="00:00:10" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
+              </Sequence>
               <uix:NClick ClickType="Single" DisplayName="Click 'Kontakt'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aa68757d-d0d5-4dd2-bd49-796d8f34efd0" Version="V1">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.admin.ch/gov/de/start.html" ContentHash="T73JzIZ3MkGWqiimFUa74g" DesignTimeRectangle="1323, 131, 42, 14" ElementType="Text" FriendlyName="'Kontakt'" FullSelectorArgument="&lt;webctrl aaname='Kontakt' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Kontakt' tag='A' type='' check:text='Kontakt' /&gt;" Guid="53ebba74-6b45-4cb9-92b1-f1443a0bbd6b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAASCAYAAAAkAezhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVEhL7ZPbDcMgDEW7HGMwiDfhu1tkFoZxscHENkmEqjZSJK7UKjx8fWzghQ/VAr9bC/xuGfANAsaU26iOQwgIW5v4qzaEAOV/TqfgDB0T7mV8qQ0wTFV+Dk4s3uIQPKd4AJ0xxXoC/FNObJwSRllrsewjcyFi7QkBypwGUuC5ecHb5lRMA7jfIOK1nqUWIadjC61rfetlx3WX5ZvipcgqboyzGDsOwNXajWRqzRhIdVa/DTMewN3JmZMABHB5iubAKYqSGdDfgVOOfax96bsV406cYubA68DA24TjVbkEVyDk09f4LmtwuSo6l4tpOgcvIgDuAJu4I1bGl+AqrtroR1yuRr/PAk6SGPdY+7oDf5IW+N1a4PcK8QOVFukZCZ8akQAAAABJRU5ErkJggg==" InformativeScreenshot="9e8881132a1e84dc7ff0fd221b199ee7.png" Reference="RBBiNa503U-tSzTBd3Olig/tQK6Lq3-V0GUQfyOx-tovg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Der Bundesrat admin.ch - Startseite' /&gt;" SearchSteps="FuzzySelector, Image" />
