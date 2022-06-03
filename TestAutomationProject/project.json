@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.0.107877011",
+  "projectVersion": "1.0.107935793",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -90,7 +90,7 @@
         "fileName": "F03 Links anwählen\\S10 Links anwählen www.be.ch.xaml"
       },
       {
-        "editingStatus": "Publishable",
+        "editingStatus": "InProgress",
         "testCaseId": "7e8d2347-54d6-4112-beed-30c88216dea4",
         "fileName": "F05 PDF Datei öffnen\\S11 PDF Datei öffnen über www.bedag.ch.xaml"
       },

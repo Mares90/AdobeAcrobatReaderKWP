@@ -2,11 +2,14 @@
   "Id": "hXO4BQoN_U2gSaYz-_Un8w",
   "Reference": "RBBiNa503U-tSzTBd3Olig/hXO4BQoN_U2gSaYz-_Un8w",
   "ParentRef": "RBBiNa503U-tSzTBd3Olig/C24L5SXOw0uvSoweFF-YEw",
-  "Name": "-",
+  "Name": "91.10.0",
   "Type": "AppVersion",
   "Created": "2022-06-02T12:24:29.9004187Z",
   "CreatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-06-02T12:24:29.9004187Z"
+  "Updated": "2022-06-03T05:56:38.5983802Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
 }

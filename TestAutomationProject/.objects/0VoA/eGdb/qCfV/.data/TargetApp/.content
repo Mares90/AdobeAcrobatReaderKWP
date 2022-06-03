@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="oCdMCqNTjEe6ijXuCu2TVg" Selector="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG' /&gt;" Url="https://www.bedag.ch/" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="IconBase64" xmlns="">0sGHXIwJYZEWW7R4Eea-Lcg</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="925c8441c7db4d6ce2029a8cc0b25515.png" xmlns="">0F--mwS0VJ021njYq8xO4fg</imageRef>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Firefox" ContentHash="KsPDMTf5kkyD4u9VGtVTmw" Selector="&lt;html app='firefox.exe' title='Startseite – Bedag Informatik AG'/&gt;" Url="https://www.bedag.ch/" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0WcUOhi6DNUG7CBpPGsmCBQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5fd05d8cdd149e152c86735bdfce2366.png" xmlns="">0qzTGoVFnFkmPeZ2H1lYO-Q</imageRef>
 </TargetApp>
